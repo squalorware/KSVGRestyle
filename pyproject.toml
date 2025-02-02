@@ -1,0 +1,98 @@
+[project]
+name = "colour_svg"
+dynamic = [ "version" ]
+requires-python = ">=3.12,<4.0"
+description = "A CLI tool to apply Plasma Color Schemes to SVG widgets"
+readme = "README.md"
+authors = [
+    { name = "oniko94", email = "onikolaiev94@outlook.com" },
+]
+maintainers = [
+    { name = "oniko94", email = "admin@squalorware.tech" },
+]
+keywords = [ "cli", "kde", "svg", "color", "widget", "theme", "plasma" ]
+
+[project.urls]
+repository = "https://github.com/squalorware/colour_svg"
+
+[project.license]
+text = "LGPL-2.1-or-late"
+
+[project.scripts]
+colour_svg = "colour_svg:main"
+cz-post-commit = "hooks:cz_post_commit"
+cz-prepare-msg = "hooks:cz_prepare_msg"
+
+[tool.poetry]
+version = "0.0.1"
+requires-poetry = ">=2.0"
+
+[tool.poetry.dependencies]
+click = "^8.1.8"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.3.0"
+jinja2 = "^3.1.5"
+
+[tool.poetry.group.dev.dependencies]
+pyupgrade = "^3.19.1"
+pyproject-pyupgrade = "^0.1.1"
+flake8-bandit = "^4.1.1"
+flake8-print = "^5.0.0"
+flake8-builtins = "^2.5.0"
+flake8-eradicate = "^1.5.0"
+pep8-naming = "^0.14.1"
+flake8-debugger = "^4.1.2"
+flake8-type-checking = "^3.0.0"
+flake8-bugbear = "^24.12.12"
+flake8-quotes = "^3.4.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 80
+target-version = ["py312"]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "semver"
+version_provider = "poetry"
+update_changelog_on_bump = true
+bump_message = "bump: version $current_version → $new_version"
+annotated_tag = true
+major_version_zero = true
+
+[tool.flake8]
+max-line-length = 80
+inline-quotes = "double"
+ignore = ["B009", "B010", "W503"]
+per-file-ignores = ["tests/*: S101"]
+
+[tool.isort]
+profile = "black"
+line_length = 80
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "integration"]
+addopts = "--cov=partcalc --cov-report html -v"
+log_cli = true
+log_cli_level = "INFO"
+log_format = "%(asctime)s %(levelname)s %(message)s"
+log_date_format = "%Y-%m-%d %H:%M:%S"
+minversion = "6.0"
+filterwarnings = "ignore"
+norecursedirs = ["docs", "build"]
+cache_dir = ".pytest_cache"
+
+[tool.pyupgrade]
+py311-plus = true

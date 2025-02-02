@@ -1,0 +1,25 @@
+{
+    "pylsp": {
+        "configurationSources": [ "flake8" ],
+        "plugins": {
+            "autopep8": {
+                "enabled": false
+            },
+            "flake8": {
+                "enabled": true
+            },
+            "pycodestyle": {
+                "enabled": false
+            },
+            "pyflakes": {
+                "enabled": false
+            },
+            "pylint": {
+                "enabled": false
+            },
+            "yapf": {
+                "enabled": false
+            }
+        }
+    }
+}
