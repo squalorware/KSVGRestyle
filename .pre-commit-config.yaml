@@ -29,3 +29,8 @@ repos:
       require_serial: true
       additional_dependencies: [Flake8-pyproject]
       stages: [ pre-commit ]
+  - repo: https://github.com/squalorware/cz-git-hooks
+    rev: 0.0.2
+    hooks:
+    - id: cz-prepare-msg
+    - id: cz-post-commit

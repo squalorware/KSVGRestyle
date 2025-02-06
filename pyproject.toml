@@ -1,3 +1,7 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
 [project]
 name = "colour_svg"
 dynamic = [ "version" ]
@@ -16,12 +20,10 @@ keywords = [ "cli", "kde", "svg", "color", "widget", "theme", "plasma" ]
 repository = "https://github.com/squalorware/colour_svg"
 
 [project.license]
-text = "LGPL-2.1-or-late"
+text = "LGPL-2.1-or-later"
 
 [project.scripts]
-colour_svg = "colour_svg:main"
-cz-post-commit = "hooks:cz_post_commit"
-cz-prepare-msg = "hooks:cz_prepare_msg"
+colour_svg = "colour_svg.console:main"
 
 [tool.poetry]
 version = "0.0.1"
@@ -49,10 +51,6 @@ flake8-quotes = "^3.4.0"
 [tool.poetry.group.test.dependencies]
 pytest = "^8.3.4"
 pytest-cov = "^6.0.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 80
@@ -84,7 +82,7 @@ strict = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests", "integration"]
-addopts = "--cov=partcalc --cov-report html -v"
+addopts = "--cov=colour_svg --cov-report html -v"
 log_cli = true
 log_cli_level = "INFO"
 log_format = "%(asctime)s %(levelname)s %(message)s"
