@@ -22,16 +22,13 @@ def _to_hex(rgb: str) -> str:
 
 
 def _str_literal(value: str) -> str:
-    """Converts the provided value to a valid TOML string
-
-    If the value is a boolean string, return it as is
-    """
-    v = value.strip()
+    """Converts the provided value to a valid TOML string"""
+    val = value.strip()
     # make sure boolean values are not stringified
-    if v in ["true", "false"]:
-        return v
+    if val in ["true", "false"]:
+        return f"{val}\n"
 
-    return '"{}"\n'.format(v)
+    return f'"{val}"\n'
 
 
 def parse_color_theme(ct_file: TextIO) -> dict[str, Any]:
@@ -40,7 +37,7 @@ def parse_color_theme(ct_file: TextIO) -> dict[str, Any]:
 
     Since its syntax is very close to TOML, patch content to make it valid TOML
     and then use tomllib to parse it and convert it to dict.
-    :param ct_file: --- file contents (iostream)
+    :param ct_file: -- file contents (iostream)
     :return: a dict of colour theme styles
     """
     ct_str = ""
@@ -61,8 +58,12 @@ def parse_color_theme(ct_file: TextIO) -> dict[str, Any]:
             if all(ch.isalpha() or ch.isspace() for ch in v):
                 val = _str_literal(v)
 
-            line = " = ".join([k, val])
+            line = "=".join([k, val])
         ct_str += line
 
-    theme_dict = tomllib.loads(ct_str)
-    return theme_dict
+    try:
+        theme_dict = tomllib.loads(ct_str)
+    except tomllib.TOMLDecodeError as e:
+        raise ValueError(str(e))
+    else:
+        return theme_dict

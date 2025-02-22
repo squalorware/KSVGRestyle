@@ -23,7 +23,7 @@ repository = "https://github.com/squalorware/KSVG_Restyle"
 text = "LGPL-2.1-or-later"
 
 [project.scripts]
-ksvgrestyle = "ksvg_restyle.console:main"
+ksvgrestyle = "ksvg_restyle.command:main"
 
 [tool.poetry]
 version = "0.0.1"
@@ -86,8 +86,8 @@ python_version = "3.12"
 strict = true
 
 [tool.pytest.ini_options]
-testpaths = ["tests", "integration"]
-addopts = "--junitxml=junit/test-results.xml -cov=ksvg_restyle --cov-report=xml --cov-report=html"
+testpaths = ["tests"]
+addopts = "--junitxml=junit/test-results.xml --cov=ksvg_restyle --cov-report=xml"
 log_cli = true
 log_cli_level = "INFO"
 log_format = "%(asctime)s %(levelname)s %(message)s"

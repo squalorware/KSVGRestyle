@@ -4,13 +4,13 @@ from typing import TextIO
 
 import pytest
 
-from tests.utils import get_mock_file
+from tests.mock_files import loader
 
 
 @pytest.fixture
 def color_theme() -> str:
     with open(
-        file=get_mock_file("theme.colors"), mode="r", encoding="UTF-8"
+        file=loader.get_mock_file("theme.colors"), mode="r", encoding="UTF-8"
     ) as theme:
         return theme.read()
 

@@ -3,14 +3,14 @@ import unittest
 
 import pytest
 
-from ksvg_restyle.handlers.theme_parser import (
+from ksvg_restyle.parsers.theme import (
     _clamp,
     _to_hex,
     parse_color_theme,
 )
 
 
-class HandlersThemeParser(unittest.TestCase):
+class ParsersColorThemeParserUnitTest(unittest.TestCase):
     @pytest.fixture(autouse=True)
     def prepare_fixture(self, color_theme_short, color_theme_short_dict):
         self.ct_str = color_theme_short
