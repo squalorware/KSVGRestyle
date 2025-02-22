@@ -1,0 +1,47 @@
+name: Run checks on the pull request
+run-name: \#${{ github.run_number }} - Running checks for ${{ github.sha }}
+on:
+  pull_request:
+    branches:
+      - master
+    types:
+      - opened
+      - reopened
+      - review_requested
+      - ready_for_review
+jobs:
+  ci:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.12", "3.13"]
+        poetry-version: ["latest", "main", "2.0.1"]
+        os: ubuntu-22.04
+    runs-on: ${{ matrix.os }}
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v4
+        with:
+          poetry-version: ${{ matrix.poetry-version }}
+      - name: Define cache store for the virtualenv from poetry lock
+        uses: actions/cache@v3
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+      - name: Install the development and testing dependencies
+        run: poetry install --only dev, test
+      - name: Lint the code
+        run: poetry run flake8
+      - name: Run tests
+        run: poetry run pytest

@@ -3,7 +3,11 @@ import unittest
 
 import pytest
 
-from colour_svg.handlers.theme_parser import _clamp, _to_hex, parse_color_theme
+from ksvg_restyle.handlers.theme_parser import (
+    _clamp,
+    _to_hex,
+    parse_color_theme,
+)
 
 
 class HandlersThemeParser(unittest.TestCase):

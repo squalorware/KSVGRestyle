@@ -5,10 +5,14 @@ from typing import Any, TextIO
 
 
 def _clamp(value: int) -> int:
+    """Ensures that the provided value is a valid integer
+    In range between 0 and 255
+    """
     return max(0, min(value, 255))
 
 
 def _to_hex(rgb: str) -> str:
+    """Transforms the provided rgb string to the HTML-valid hex color value"""
     red, green, blue = rgb.split(",")
     return "#{0:02x}{1:02x}{2:02x}".format(
         _clamp(int(red)),
@@ -18,6 +22,10 @@ def _to_hex(rgb: str) -> str:
 
 
 def _str_literal(value: str) -> str:
+    """Converts the provided value to a valid TOML string
+
+    If the value is a boolean string, return it as is
+    """
     v = value.strip()
     # make sure boolean values are not stringified
     if v in ["true", "false"]:

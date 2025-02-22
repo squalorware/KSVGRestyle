@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import click
 
-from colour_svg.handlers.theme_parser import parse_color_theme
+from ksvg_restyle.handlers.theme_parser import parse_color_theme
 
 
 @click.command()
