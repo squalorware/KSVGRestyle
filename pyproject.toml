@@ -3,7 +3,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [project]
-name = "colour_svg"
+name = "ksvg_restyle"
 dynamic = [ "version" ]
 requires-python = ">=3.12,<4.0"
 description = "A CLI tool to apply Plasma Color Schemes to SVG widgets"
@@ -17,13 +17,13 @@ maintainers = [
 keywords = [ "cli", "kde", "svg", "color", "widget", "theme", "plasma" ]
 
 [project.urls]
-repository = "https://github.com/squalorware/colour_svg"
+repository = "https://github.com/squalorware/KSVG_Restyle"
 
 [project.license]
 text = "LGPL-2.1-or-later"
 
 [project.scripts]
-colour_svg = "colour_svg.console:main"
+ksvgrestyle = "ksvg_restyle.console:main"
 
 [tool.poetry]
 version = "0.0.1"
@@ -47,6 +47,10 @@ flake8-debugger = "^4.1.2"
 flake8-type-checking = "^3.0.0"
 flake8-bugbear = "^24.12.12"
 flake8-quotes = "^3.4.0"
+black = "^25.1.0"
+isort = "^6.0.0"
+flake8-pyproject = "^1.2.3"
+flake8 = "^7.1.1"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^8.3.4"
@@ -71,6 +75,7 @@ max-line-length = 80
 inline-quotes = "double"
 ignore = ["B009", "B010", "W503"]
 per-file-ignores = ["tests/*: S101"]
+extend_exclude = [".venv", ".github"]
 
 [tool.isort]
 profile = "black"
@@ -82,7 +87,7 @@ strict = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests", "integration"]
-addopts = "--cov=colour_svg --cov-report html -v"
+addopts = "--junitxml=junit/test-results.xml -cov=ksvg_restyle --cov-report=xml --cov-report=html"
 log_cli = true
 log_cli_level = "INFO"
 log_format = "%(asctime)s %(levelname)s %(message)s"
