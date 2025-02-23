@@ -66,4 +66,9 @@ def parse_color_theme(ct_file: TextIO) -> dict[str, Any]:
     except tomllib.TOMLDecodeError as e:
         raise ValueError(str(e))
     else:
-        return theme_dict
+        color_theme = theme_dict.get("Colors")
+
+        if not color_theme:
+            raise ValueError("No color theme specification found")
+
+        return color_theme

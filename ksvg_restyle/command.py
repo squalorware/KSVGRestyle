@@ -1,24 +1,27 @@
 # -*- coding: utf-8 -*-
 import click
 
-from ksvg_restyle.handlers import load_color_theme
-from ksvg_restyle.state import State
+from ksvg_restyle.handlers import load_color_theme, load_svg_image
 
 
 @click.command()
-@click.argument("image", type=click.Path(exists=True))
+@click.argument("svg", type=click.Path(exists=True), callback=load_svg_image)
 @click.option(
     "-c",
-    "--colour-theme",
+    "--color-theme",
     required=True,
     type=click.Path(exists=True),
     callback=load_color_theme,
+    help="Path to the Plasma Color Theme file",
 )
-@click.option("-o", "--output", type=click.Path(exists=False))
-@click.pass_context
-def main(ctx, image, colour_theme, output) -> None:
-    ctx.obj = State(compressed=image, theme=colour_theme, out_path=output)
-    click.echo(ctx.obj.theme)
+@click.option(
+    "-o",
+    "--output",
+    type=click.Path(exists=False),
+    help="Output destination path (recolored SVG image)",
+)
+def main(svg, color_theme, output) -> None:
+    click.echo(color_theme)
 
 
 if __name__ == "__main__":

@@ -10,11 +10,11 @@ from ksvg_restyle.parsers.theme import (
 )
 
 
-class ParsersColorThemeParserUnitTest(unittest.TestCase):
+class ColorThemeParserTestCase(unittest.TestCase):
     @pytest.fixture(autouse=True)
-    def prepare_fixture(self, color_theme_short, color_theme_short_dict):
-        self.ct_str = color_theme_short
-        self.ct_dict = color_theme_short_dict
+    def prepare_fixture(self, color_theme, color_theme_dict):
+        self.ct_str = color_theme
+        self.ct_dict = color_theme_dict
 
     def test_clamp(self) -> None:
         """
