@@ -18,18 +18,18 @@ def css_template() -> str:
         return css
 
 
-def old_colors() -> set[str]:
-    return {
-        "#ffffff",
-        "#d4d4d4",
-        "#909090",
-        "#008000",
-        "#c7d6e6",
+def old_colors() -> list[str]:
+    return [
         "#666666",
-        "#000000",
+        "#c7d6e6",
         "#dedede",
+        "#ffffff",
         "#b6b6b6",
-    }
+        "#909090",
+        "#d4d4d4",
+        "#008000",
+        "#000000",
+    ]
 
 
 def color_scheme() -> ColorScheme:

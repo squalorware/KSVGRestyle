@@ -1,19 +1,23 @@
 # -*- coding: utf-8 -*-
 import re
-from typing import Iterable
 
 from lxml import etree
 
 from ksvg_restyle.core import parsers, wrappers
 
 
-def get_old_colors(xml: str) -> set[str]:
+def get_old_colors(xml: str) -> list[str]:
     """Retrieves the original color palette from the file
 
     :param xml: XML string
-    :return: A set of unique colors from the original SVG
+    :return: A list of unique colors from the original SVG
     """
-    return set(re.findall(r"#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})\b", xml))
+    seen = set()
+    seen_add = seen.add
+    # Get all HTML hexadecimal colors
+    colors = re.findall(r"#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})\b", xml)
+    # Copy only the unique values from the color list while preserving order
+    return [x for x in colors if not (x in seen or seen_add(x))]
 
 
 def find_or_add_style(
@@ -21,7 +25,7 @@ def find_or_add_style(
     svg: etree.Element,
     template: str,
     xml_parser: etree.XMLParser,
-) -> tuple[etree.Element, set[str]]:
+) -> tuple[etree.Element, list[str]]:
     """Adds or changes value (if exists) of the <style> tag of the SVG image
 
     :param nsmap: XML namespace map
@@ -81,7 +85,7 @@ def update_attributes(
 def apply_stylesheet(
     color_scheme: wrappers.ColorScheme,
     nsmap: dict[str, str],
-    old_colors: Iterable[str],
+    old_colors: list[str],
     svg: etree.Element,
     template: str,
     xml_parser: etree.XMLParser,

@@ -74,3 +74,9 @@ def transformed_svg_etree() -> etree.ElementTree:
     xslt = etree.XML(xslt_template())
     transform = etree.XSLT(xslt)
     return transform(styled_svg())
+
+
+def transformed_svg_string() -> str:
+    with open(datafile("svg/transformed.xml.out"), "r") as img:
+        transformed = img.read()
+        return transformed

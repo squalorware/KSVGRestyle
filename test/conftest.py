@@ -39,7 +39,7 @@ def css_template() -> str:
 
 
 @pytest.fixture
-def old_colors() -> set[str]:
+def old_colors() -> list[str]:
     return fixtures.color_scheme.old_colors()
 
 
@@ -101,3 +101,8 @@ def styled_svg_string() -> str:
 @pytest.fixture
 def transformed_svg() -> etree.ElementTree:
     return fixtures.svg.transformed_svg_etree()
+
+
+@pytest.fixture
+def transformed_svg_string() -> str:
+    return fixtures.svg.transformed_svg_string()
