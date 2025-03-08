@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from pathlib import Path
 from test import fixtures
-from typing import TextIO
+from typing import Any, TextIO
 
 import pytest
 from lxml import etree
@@ -41,6 +41,16 @@ def css_template() -> str:
 @pytest.fixture
 def old_colors() -> list[str]:
     return fixtures.color_scheme.old_colors()
+
+
+@pytest.fixture
+def plasma_colors() -> dict[str, Any]:
+    return fixtures.color_scheme.plasma_colors()
+
+
+@pytest.fixture
+def cs_dict() -> dict[str, str]:
+    return fixtures.color_scheme.cs_dict()
 
 
 @pytest.fixture

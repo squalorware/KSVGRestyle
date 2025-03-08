@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import io
+import json
 from test.fixtures.data import datafile
-from typing import TextIO
+from typing import Any, TextIO
 
 from ksvg_restyle.core.wrappers import ColorScheme
 
@@ -32,78 +33,27 @@ def old_colors() -> list[str]:
     ]
 
 
+def plasma_colors() -> dict[str, Any]:
+    with open(datafile("color_scheme/colors.json.in"), "r") as f:
+        colors = json.load(f)
+        return colors
+
+
+def cs_dict() -> dict[str, str]:
+    return {
+        "Text": "#ffffff",
+        "Background": "#101010",
+        "Highlight": "#4e7598",
+        "ViewText": "#ffffff",
+        "ViewBackground": "#000000",
+        "ViewHover": "#4e7598",
+        "ViewFocus": "#4e7598",
+        "ButtonText": "#ffffff",
+        "ButtonBackground": "#1c1e22",
+        "ButtonHover": "#4e7598",
+        "ButtonFocus": "#4e7598",
+    }
+
+
 def color_scheme() -> ColorScheme:
-    return ColorScheme(
-        {
-            "Button": {
-                "BackgroundAlternate": "#222221",
-                "BackgroundNormal": "#1c1e22",
-                "DecorationFocus": "#4e7598",
-                "DecorationHover": "#4e7598",
-                "ForegroundActive": "#810061",
-                "ForegroundInactive": "#747474",
-                "ForegroundLink": "#1010ff",
-                "ForegroundNegative": "#fc4040",
-                "ForegroundNeutral": "#ffd052",
-                "ForegroundNormal": "#ffffff",
-                "ForegroundPositive": "#91ffb9",
-                "ForegroundVisited": "#ae7483",
-            },
-            "Selection": {
-                "BackgroundAlternate": "#3379bb",
-                "BackgroundNormal": "#4e7598",
-                "DecorationFocus": "#4e7598",
-                "DecorationHover": "#4e7598",
-                "ForegroundActive": "#810061",
-                "ForegroundInactive": "#747474",
-                "ForegroundLink": "#1010ff",
-                "ForegroundNegative": "#f16363",
-                "ForegroundNeutral": "#ffdd00",
-                "ForegroundNormal": "#000000",
-                "ForegroundPositive": "#007f00",
-                "ForegroundVisited": "#ae7483",
-            },
-            "Tooltip": {
-                "BackgroundAlternate": "#001c3b",
-                "BackgroundNormal": "#232300",
-                "DecorationFocus": "#4e7598",
-                "DecorationHover": "#4e7598",
-                "ForegroundActive": "#810061",
-                "ForegroundInactive": "#747474",
-                "ForegroundLink": "#1010ff",
-                "ForegroundNegative": "#fc4040",
-                "ForegroundNeutral": "#ffd052",
-                "ForegroundNormal": "#ffffff",
-                "ForegroundPositive": "#91ffb9",
-                "ForegroundVisited": "#ae7483",
-            },
-            "View": {
-                "BackgroundAlternate": "#090807",
-                "BackgroundNormal": "#000000",
-                "DecorationFocus": "#4e7598",
-                "DecorationHover": "#4e7598",
-                "ForegroundActive": "#810061",
-                "ForegroundInactive": "#747474",
-                "ForegroundLink": "#1010ff",
-                "ForegroundNegative": "#fc4040",
-                "ForegroundNeutral": "#ffd052",
-                "ForegroundNormal": "#ffffff",
-                "ForegroundPositive": "#91ffb9",
-                "ForegroundVisited": "#ae7483",
-            },
-            "Window": {
-                "BackgroundAlternate": "#272625",
-                "BackgroundNormal": "#101010",
-                "DecorationFocus": "#4e7598",
-                "DecorationHover": "#4e7598",
-                "ForegroundActive": "#810061",
-                "ForegroundInactive": "#747474",
-                "ForegroundLink": "#1010ff",
-                "ForegroundNegative": "#fc4040",
-                "ForegroundNeutral": "#ffd052",
-                "ForegroundNormal": "#ffffff",
-                "ForegroundPositive": "#91ffb9",
-                "ForegroundVisited": "#ae7483",
-            },
-        }
-    )
+    return ColorScheme(plasma_colors())

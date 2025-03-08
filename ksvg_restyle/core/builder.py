@@ -5,6 +5,8 @@ from lxml import etree
 
 from ksvg_restyle.core import parsers, wrappers
 
+HEX_COLOR_PATTERN: str = r"#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})\b"
+
 
 def get_old_colors(xml: str) -> list[str]:
     """Retrieves the original color palette from the file
@@ -15,7 +17,7 @@ def get_old_colors(xml: str) -> list[str]:
     seen = set()
     seen_add = seen.add
     # Get all HTML hexadecimal colors
-    colors = re.findall(r"#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})\b", xml)
+    colors = re.findall(HEX_COLOR_PATTERN, xml)
     # Copy only the unique values from the color list while preserving order
     return [x for x in colors if not (x in seen or seen_add(x))]
 
@@ -76,7 +78,7 @@ def update_attributes(
         for tag in tags:
             if attr == "style":
                 prev = tag.attrib[attr]
-                new = re.sub(r"#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})\b", val, prev)
+                new = re.sub(HEX_COLOR_PATTERN, val, prev)
                 tag.set(attr, new)
             else:
                 tag.set(attr, val)
