@@ -1,0 +1,43 @@
+.ColorScheme-Text {
+    color: #ffffff;
+}
+
+.ColorScheme-Background {
+    color: #101010;
+}
+
+.ColorScheme-Highlight {
+    color: #4e7598;
+}
+
+.ColorScheme-ViewText {
+    color: #ffffff;
+}
+
+.ColorScheme-ViewBackground {
+    color: #000000;
+}
+
+.ColorScheme-ViewHover {
+    color: #4e7598;
+}
+
+.ColorScheme-ViewFocus {
+    color: #4e7598;
+}
+
+.ColorScheme-ButtonText {
+    color: #ffffff;
+}
+
+.ColorScheme-ButtonBackground {
+    color: #1c1e22;
+}
+
+.ColorScheme-ButtonHover {
+    color: #4e7598;
+}
+
+.ColorScheme-ButtonFocus {
+    color: #4e7598;
+}

@@ -1,0 +1,769 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" id="svg3642" inkscape:export-filename="/home/diau/svn/playground-plasma/desktoptheme/air/widgets/background.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" inkscape:output_extension="org.inkscape.output.svgz.inkscape" inkscape:version="0.48.0 r9654" sodipodi:docname="background.svgz" sodipodi:version="0.32" version="1.0" width="64">
+  <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" gridtolerance="13" height="48px" id="base" inkscape:current-layer="layer1" inkscape:cx="72.213853" inkscape:cy="-25.101604" inkscape:document-units="px" inkscape:grid-bbox="true" inkscape:guide-bbox="true" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:window-height="839" inkscape:window-maximized="0" inkscape:window-width="1397" inkscape:window-x="31" inkscape:window-y="35" inkscape:zoom="2.6416666" objecttolerance="9" pagecolor="#c7d6e6" showgrid="true" showguides="true" width="48px">
+    <inkscape:grid empspacing="5" enabled="true" id="grid2555" snapvisiblegridlinesonly="true" type="xygrid" visible="true"/>
+  </sodipodi:namedview>
+  <defs id="defs3644">
+    <style type="text/css" id="current-color-scheme">.ColorScheme-Text {
+    color: #ffffff;
+}
+
+.ColorScheme-Background {
+    color: #101010;
+}
+
+.ColorScheme-Highlight {
+    color: #4e7598;
+}
+
+.ColorScheme-ViewText {
+    color: #ffffff;
+}
+
+.ColorScheme-ViewBackground {
+    color: #000000;
+}
+
+.ColorScheme-ViewHover {
+    color: #4e7598;
+}
+
+.ColorScheme-ViewFocus {
+    color: #4e7598;
+}
+
+.ColorScheme-ButtonText {
+    color: #ffffff;
+}
+
+.ColorScheme-ButtonBackground {
+    color: #1c1e22;
+}
+
+.ColorScheme-ButtonHover {
+    color: #4e7598;
+}
+
+.ColorScheme-ButtonFocus {
+    color: #4e7598;
+}</style>
+    <radialGradient cx="314.58676" cy="801.46021" fx="314.58676" fy="801.46021" gradientTransform="matrix(-1.4880291e-7,0.45114326,-0.64731627,-1.9862753e-6,543.79829,-133.92209)" gradientUnits="userSpaceOnUse" id="radialGradient3644" inkscape:collect="always" r="66.5" xlink:href="#TopLight"/>
+    <radialGradient cx="54.978642" cy="95.844627" fx="54.978642" fy="95.844627" gradientTransform="matrix(7.7857271e-4,-1.0284621,1.0333834,2.283777e-3,-58.128002,123.32456)" gradientUnits="userSpaceOnUse" id="radialGradient3867" inkscape:collect="always" r="29" xlink:href="#RightLight"/>
+    <radialGradient cx="59.598103" cy="74.52903" fx="59.598103" fy="74.52903" gradientTransform="matrix(0,-0.224138,0.5495689,0,-22.021338,79.857609)" gradientUnits="userSpaceOnUse" id="radialGradient3869" inkscape:collect="always" r="29" xlink:href="#Border"/>
+    <radialGradient cx="37.97295" cy="136.76402" fx="37.97295" fy="136.76402" gradientTransform="matrix(-7.6405635e-2,-29.995893,29.813113,0,-4025.4608,1184.0336)" gradientUnits="userSpaceOnUse" id="radialGradient4077" inkscape:collect="always" r="1.0001484" xlink:href="#RightLight"/>
+    <radialGradient cx="38.2295" cy="136.17532" fx="38.2295" fy="136.17532" gradientTransform="matrix(-30.119227,0,-1.1536472e-4,29.733296,1191.5833,-4010.9414)" gradientUnits="userSpaceOnUse" id="radialGradient3446" inkscape:collect="always" r="1.0001484" xlink:href="#RightLight"/>
+    <radialGradient cx="64.182961" cy="372.68588" fx="64.182961" fy="372.68588" gradientTransform="matrix(0,-1.0345188,1.0333678,-4.1155063e-7,-345.08926,103.39983)" gradientUnits="userSpaceOnUse" id="radialGradient3535" inkscape:collect="always" r="29" xlink:href="#RightLight"/>
+    <radialGradient cx="60.910709" cy="314.59671" fx="60.910709" fy="314.59671" gradientTransform="matrix(-2.1272598e-7,0.7241381,-1.398057,3.2252453e-7,464.84029,-37.106675)" gradientUnits="userSpaceOnUse" id="radialGradient3539" inkscape:collect="always" r="29" xlink:href="#TopLight-3"/>
+    <radialGradient cx="13.058065" cy="130.71982" fx="13.058065" fy="130.71982" gradientTransform="matrix(-5.0741645e-5,21.000394,-40.625013,-9.7999302e-5,5334.4948,-267.20962)" gradientUnits="userSpaceOnUse" id="radialGradient3483" inkscape:collect="always" r="1" xlink:href="#TopLight-3"/>
+    <radialGradient cx="39.446854" cy="135.54184" fx="39.446854" fy="135.54184" gradientTransform="matrix(40.612885,-4.1629785e-6,-1.6684653e-4,-20.997419,-1577.0312,2854.0299)" gradientUnits="userSpaceOnUse" id="radialGradient3452" inkscape:collect="always" r="1.0001484" xlink:href="#TopLight-3"/>
+    <radialGradient cx="14.124868" cy="129.00368" fx="14.124868" fy="129.00368" gradientTransform="matrix(40.500003,0.1247253,0.06505637,-21.124662,-554.44973,2730.3983)" gradientUnits="userSpaceOnUse" id="radialGradient4093" inkscape:collect="always" r="1" xlink:href="#TopLight-3"/>
+    <radialGradient cx="39.341408" cy="135.6778" fx="39.341408" fy="135.6778" gradientTransform="matrix(-0.06510705,21.121735,-40.493905,-0.1249418,5522.6843,-806.00588)" gradientUnits="userSpaceOnUse" id="radialGradient4075" inkscape:collect="always" r="1.0001484" xlink:href="#TopLight-3"/>
+    <radialGradient cx="76.121002" cy="59.106388" fx="76.121002" fy="59.106388" gradientTransform="matrix(-3.6642441e-7,0.7241508,-1.3993524,-1.6291557e-7,100.69453,-25.123075)" gradientUnits="userSpaceOnUse" id="radialGradient3873" inkscape:collect="always" r="29" xlink:href="#TopLight-3"/>
+    <radialGradient cx="59.595806" cy="73.929459" fx="59.595806" fy="73.929459" gradientTransform="matrix(0,-0.224138,0.5154105,0,-19.475546,79.857609)" gradientUnits="userSpaceOnUse" id="radialGradient3869-0" inkscape:collect="always" r="29" xlink:href="#Border-0"/>
+    <radialGradient cx="25.349655" cy="140.89587" fx="25.349655" fy="140.89587" gradientTransform="matrix(7.7009589e-5,20.999991,-40.500053,1.4851876e-4,5725.2886,-501.36241)" gradientUnits="userSpaceOnUse" id="radialGradient3845" inkscape:collect="always" r="1" xlink:href="#TopLight-3"/>
+    <radialGradient cx="43.577454" cy="140.78833" fx="43.577454" fy="140.78833" gradientTransform="matrix(0,17.999987,-33.015428,0,4673.1867,-749.39256)" gradientUnits="userSpaceOnUse" id="radialGradient3832" inkscape:collect="always" r="1" xlink:href="#TopLight-3"/>
+    <radialGradient cx="291.79135" cy="801.36688" fx="291.79135" fy="801.36688" gradientTransform="matrix(6.7560952e-7,0.3157895,-0.72243064,0,603.93178,-94.143598)" gradientUnits="userSpaceOnUse" id="radialGradient3644-2" inkscape:collect="always" r="66.5" xlink:href="#TopLight-3"/>
+    <linearGradient id="TopLight">
+      <stop id="stop3697" offset="0" style="stop-color:currentColor;stop-opacity:1;" class="ColorScheme-ViewBackground"/>
+      <stop id="stop3699" offset="1" style="stop-color:currentColor;stop-opacity:1;" class="ColorScheme-ViewHover"/>
+    </linearGradient>
+    <linearGradient id="Border">
+      <stop id="stop8748" offset="0" style="stop-color:currentColor;stop-opacity:1;" class="ColorScheme-ViewHover"/>
+      <stop id="stop8750" offset="1" style="stop-color:currentColor;stop-opacity:0;" class="ColorScheme-ViewHover"/>
+    </linearGradient>
+    <linearGradient id="RightLight">
+      <stop id="stop9727" offset="0" style="stop-color:currentColor;stop-opacity:0.88148147;" class="ColorScheme-ViewText"/>
+      <stop id="stop9729" offset="1" style="stop-color:currentColor;stop-opacity:0.65185183;" class="ColorScheme-ButtonBackground"/>
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(2,0,0,2.3076921,-80.000446,-289.69227)" gradientUnits="userSpaceOnUse" id="linearGradient4079" inkscape:collect="always" x1="63.5" x2="63.5" xlink:href="#Border" y1="129" y2="134.6875"/>
+    <linearGradient gradientTransform="matrix(-2,0,0,2.3076921,131.00045,-289.69228)" gradientUnits="userSpaceOnUse" id="linearGradient3448" inkscape:collect="always" x1="63.5" x2="63.5" xlink:href="#Border" y1="129" y2="134.6875"/>
+    <linearGradient gradientUnits="userSpaceOnUse" id="linearGradient4778" inkscape:collect="always" x1="114.00668" x2="269.00668" xlink:href="#linearGradient14046" y1="869.10449" y2="754.10449"/>
+    <linearGradient gradientUnits="userSpaceOnUse" id="linearGradient4770" inkscape:collect="always" x1="114.00668" x2="269.00668" xlink:href="#linearGradient14046" y1="869.10449" y2="754.10449"/>
+    <linearGradient gradientTransform="translate(-27.493314,4.2735982)" gradientUnits="userSpaceOnUse" id="linearGradient4243" inkscape:collect="always" x1="141.61227" x2="296.5" xlink:href="#linearGradient14046" y1="864.99829" y2="749.83087"/>
+    <linearGradient id="linearGradient14046" inkscape:collect="always">
+      <stop id="stop14048" offset="0" style="stop-color:currentColor;stop-opacity:1;" class="ColorScheme-ViewHover"/>
+      <stop id="stop14050" offset="1" style="stop-color:currentColor;stop-opacity:0;" class="ColorScheme-ViewHover"/>
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(-2,0,0,2.3076921,131.00045,-289.69228)" gradientUnits="userSpaceOnUse" id="linearGradient3448-1" inkscape:collect="always" x1="63.5" x2="63.5" xlink:href="#Border-0" y1="129" y2="134.6875"/>
+    <linearGradient gradientTransform="matrix(2,0,0,2.3076921,-80.000446,-289.69227)" gradientUnits="userSpaceOnUse" id="linearGradient4079-6" inkscape:collect="always" x1="63.5" x2="63.5" xlink:href="#Border-0" y1="129" y2="134.6875"/>
+    <linearGradient id="Border-0">
+      <stop id="stop8748-6" offset="0" style="stop-color:currentColor;stop-opacity:1;" class="ColorScheme-ViewHover"/>
+      <stop id="stop8750-3" offset="1" style="stop-color:currentColor;stop-opacity:0;" class="ColorScheme-ViewHover"/>
+    </linearGradient>
+    <linearGradient id="TopLight-3">
+      <stop id="stop3697-6" offset="0" style="stop-color:currentColor;stop-opacity:1;" class="ColorScheme-ViewHover"/>
+      <stop id="stop3699-1" offset="1" style="stop-color:currentColor;stop-opacity:0.47058824;" class="ColorScheme-ButtonText"/>
+    </linearGradient>
+    <inkscape:perspective id="perspective434" inkscape:persp3d-origin="32 : 21.333333 : 1" inkscape:vp_x="0 : 32 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="64 : 32 : 1" sodipodi:type="inkscape:persp3d"/>
+    <inkscape:perspective id="perspective3542" inkscape:persp3d-origin="32 : 21.333333 : 1" inkscape:vp_x="0 : 32 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="64 : 32 : 1" sodipodi:type="inkscape:persp3d"/>
+  </defs>
+  <metadata id="metadata3647">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
+    <rect height="4.375" id="hint-stretch-borders" inkscape:export-filename="/home/diau/svn/playground-plasma/desktoptheme/air/widgets/image2579.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" style="opacity:0.875;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="5" x="-4" y="-23" class="ColorScheme-Text"/>
+    <g id="g4418" inkscape:label="layer1" style="display:none" transform="translate(-1453.4451,-465.21909)"/>
+    <g id="layer2" inkscape:label="glow" style="display:inline" transform="translate(-1453.4451,-465.21909)"/>
+    <g id="g2424" inkscape:label="layer1" style="display:none" transform="translate(975.61592,-1945.0985)"/>
+    <g id="g2426" inkscape:label="glow" style="display:inline" transform="translate(975.61592,-1945.0985)"/>
+    <g id="g3429" inkscape:label="Layer 1" transform="translate(1021.5937,-976.23581)"/>
+    <g id="g19758" inkscape:label="Layer 1" transform="translate(2807.8842,-592.77773)"/>
+    <g id="g3935" inkscape:label="Layer 1" transform="translate(3912.7094,-1471.0471)"/>
+    <g id="g8459" inkscape:label="Layer 1" transform="translate(1514.8397,-1486.3943)"/>
+    <g id="g28391" inkscape:label="Layer 1" transform="translate(164.02222,-157.78265)"/>
+    <g id="g28393" inkscape:label="Layer 1" transform="translate(1268.8474,-1036.052)"/>
+    <g id="g28395" inkscape:label="Layer 1" transform="translate(-1129.0223,-1051.3992)"/>
+    <g id="g6598" inkscape:label="Layer 1" transform="translate(2310.5222,-165.78265)"/>
+    <g id="g6640" inkscape:label="Layer 1" transform="translate(3415.3474,-1044.052)"/>
+    <g id="g6716" inkscape:label="Layer 1" transform="translate(1017.4777,-1059.3992)"/>
+    <g id="g6850" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-153.44508,295.17435)"/>
+    <text id="text6990" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans" x="70.554916" xml:space="preserve" y="-207.8569" class="ColorScheme-ViewFocus">
+      <tspan id="tspan6992" sodipodi:role="line" x="70.554916" y="-207.8569"/>
+    </text>
+    <g id="top" transform="translate(7.0000004,8.998957)">
+      <image height="9" id="image3408" style="opacity:0.86" width="30" x="10" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAJCAYAAAD+WDajAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A /wD/oL2nkwAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB9kCGA4QASHTxJoAAAAZdEVYdENv bW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAANElEQVQY02NkYGBgYcABWBgYGJjxSbLik2TD J8mJT5IbnyQPAwMDI5r4f5gkPz6dn3BJAgCIbgJVHAN60AAAAABJRU5ErkJggg== " y="-8"/>
+      <g id="g4106" transform="matrix(0.9989235,0,0,1,1.0764919e-2,0.9998511)">
+        <path d="M 10,0.0001489 L 10,7.0001489 L 40.032328,6.999851 L 40.032328,0.00090650955 L 40,0.00090650955 L 10,0.0001489 z" id="path2667" sodipodi:nodetypes="cccccc" style="fill:url(#radialGradient3535);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;opacity:0"/>
+        <path d="M 10,0.0001489 L 10,1 L 40.03233,1.0001489 L 40.03233,0.0001489 C 40.000002,0.0001489 40.043638,0.0001489 40.03233,0.0001489 C 30.021554,0.00027915035 20.010774,-0.00027092315 10,0.0001489 z" id="path5283" sodipodi:nodetypes="cccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" class="ColorScheme-ViewHover"/>
+        <path d="M 9.9999997,-0.9986592 L 9.9999997,0.0011919 L 40.03233,0.0013408 L 40.03233,-0.9986592 C 40.000002,-0.9986592 40.043638,-0.9986592 40.03233,-0.9986592 C 30.021554,-0.99852895 20.010774,-0.99907902 9.9999997,-0.9986592 z" id="path4455" sodipodi:nodetypes="cccccc" style="opacity:0.2;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" class="ColorScheme-ViewFocus"/>
+      </g>
+    </g>
+    <g id="topleft" transform="translate(7.0000004,8.998957)">
+      <image height="16" id="image3421" style="opacity:0.86" width="16" x="-6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A /wD/oL2nkwAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB9kCGA4MJxWpHDoAAAAZdEVYdENv bW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAt0lEQVQ4y41TQQ4DIQgcWdz2q76IH3abvmB7 ai9qZimSkpAxhIFBtJgZvLXWigsVhzOuCbEE+FNIEzInC8UuBTUhM3GF1xEWxK0jn2dOCWYURxiu dJ45Gsjmztq9Eo64ANjUyRfXsQLYu1fCqUaT7oNwIy8ATh5Vg/l993snPwEc/uFpsG+hAqPzy8wO BCYBme9g7/jAwmSxwqGgAnib2ScrkK2wBh8oVBCp4HeAf0aAe4V8H0v7AhKFFTo/fi/+AAAAAElF TkSuQmCC " y="-8"/>
+      <g id="g3465" transform="translate(1,1)">
+        <path d="M 6,0 C 3.817291,0.06722 2.067217,1.8173 2,4 L 2,7 L 3,7 L 3,4 C 3,2.4375 4.34375,1 6,1 L 9,1 L 9,0 L 6,0 z" id="path5287" sodipodi:nodetypes="ccccccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" class="ColorScheme-ViewHover"/>
+        <path d="M 5.9999996,-0.998957 C 2.9999996,-0.998957 0.9999996,1.001043 0.9999996,4.001043 L 0.9999996,7.001043 L 1.9999996,7.001043 L 1.9999996,4.001043 C 1.9999996,1.704168 3.9999996,0.001043 5.9999996,0.001043 L 8.9999996,0.001043 L 8.9999996,-0.998957 L 5.9999996,-0.998957 z" id="path4453" sodipodi:nodetypes="ccccccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;opacity:0.2" class="ColorScheme-ViewFocus"/>
+      </g>
+    </g>
+    <g id="topright" transform="translate(7.0000004,8.998957)">
+      <image height="16" id="image4021" style="opacity:0.86" transform="scale(-1,1)" width="16" x="-56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A /wD/oL2nkwAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB9kCGA4MJxWpHDoAAAAZdEVYdENv bW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAt0lEQVQ4y41TQQ4DIQgcWdz2q76IH3abvmB7 ai9qZimSkpAxhIFBtJgZvLXWigsVhzOuCbEE+FNIEzInC8UuBTUhM3GF1xEWxK0jn2dOCWYURxiu dJ45Gsjmztq9Eo64ANjUyRfXsQLYu1fCqUaT7oNwIy8ATh5Vg/l993snPwEc/uFpsG+hAqPzy8wO BCYBme9g7/jAwmSxwqGgAnib2ScrkK2wBh8oVBCp4HeAf0aAe4V8H0v7AhKFFTo/fi/+AAAAAElF TkSuQmCC " y="-8"/>
+      <g id="g4030" transform="translate(-1,1)">
+        <path d="M 44,0 C 46.182709,0.06722 47.932783,1.8173 48,4 L 48,7 L 47,7 L 47,4 C 47,2.4375 45.65625,1 44,1 L 41,1 L 41,0 L 44,0 z" id="path10379" sodipodi:nodetypes="ccccccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" class="ColorScheme-ViewHover"/>
+        <path d="M 44,-0.998957 C 47,-0.998957 49,1.001043 49,4.001043 L 49,7.001043 L 48,7.001043 L 48,4.001043 C 48,1.688543 46,0.001043 44,0.001043 L 41,0.001043 L 41,-0.998957 L 44,-0.998957 z" id="path4457" sodipodi:nodetypes="ccccccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;opacity:0.2" class="ColorScheme-ViewFocus"/>
+      </g>
+    </g>
+    <g id="center" inkscape:export-filename="/home/diau/svn/playground-plasma/desktoptheme/air/widgets/image2579.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" transform="translate(7.0000004,8.998957)">
+      <path d="M 9.9999976,8.0000625 L 9.9999976,38.000063 L 39.999985,38.000063 L 39.999985,8.0000625 L 9.9999976,8.0000625 z" id="path3642" style="fill:url(#radialGradient3644);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;opacity:0.95"/>
+    </g>
+    <g id="bottom" inkscape:export-filename="/home/diau/svn/playground-plasma/desktoptheme/air/widgets/image2579.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" transform="matrix(1.0010788,0,0,1,13.996764,-13)">
+      <path d="M 3.0000019,59.998957 L 3.0000019,66.998957 C 3.0112228,67.001303 3.0210225,66.998957 3.0323297,66.998957 L 32.967672,66.998957 C 32.97898,66.998957 32.988779,67.001303 33,66.998957 L 33,59.998957 L 3.0000019,59.998957 z" id="path2691" style="fill:url(#radialGradient3867);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;opacity:0"/>
+      <path d="M 3.0000019,65.999849 L 3.0000019,66.999849 C 3.0112228,67.000189 3.0210225,66.999849 3.0323297,66.999849 L 32.967672,66.999849 C 32.97898,66.999849 32.988779,67.000189 33,66.999849 L 33,65.999849 L 3.0000019,65.999849 z" id="path5362" style="fill:url(#radialGradient3869);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"/>
+      <image height="9" id="image3369" style="opacity:0.86" width="30" x="3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAJCAYAAAD+WDajAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A /wD/oL2nkwAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB9kCGA4QN+5pUQMAAAAZdEVYdENv bW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAANElEQVQY02NkYGAwZcABWBgYGCTxSX5gYGBg RBP/D5P8hE/nF3ySX/FJ/sAn+Quf5B9ckgD7qAgppZw6hgAAAABJRU5ErkJggg== " y="67"/>
+      <path d="M 2.9999996,67 L 2.9999996,68 C 3.0112205,68.00034 3.0210202,68 3.0323274,68 L 32.96767,68 C 32.978978,68 32.988777,68.00034 32.999998,68 L 32.999998,67 L 2.9999996,67 z" id="path4466" style="opacity:0.2;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" class="ColorScheme-ViewFocus"/>
+    </g>
+    <g id="bottomleft" inkscape:export-filename="/home/diau/svn/playground-plasma/desktoptheme/air/widgets/image2579.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" transform="translate(13,-14.001043)">
+      <g id="g3793">
+        <path d="M 9,47 L 9,50 C 9,53 11.567292,55 14,55 L 17,55 L 17,54 L 14,54 C 11.817292,53.93278 10.067217,52.182698 10,50 L 10,47 L 9,47 z" id="path4470" sodipodi:nodetypes="ccccccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;opacity:0.2" transform="translate(-13,14.001043)" class="ColorScheme-ViewFocus"/>
+      </g>
+      <image height="16" id="image3382" style="opacity:0.86" width="16" x="-12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A /wD/oL2nkwAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB9kCGA4NKnIDUcYAAAAZdEVYdENv bW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAA50lEQVQ4y5WSa04DMQyEvzxgF1GV3whxQJ8o Z+JCBZp98ANbMlazqJFGsSKNPZNxAh6Aovcj8AQ8AyfgDFxaax8MTgZ2rXfF5rDqzVEDT/ZNVod/ GzAgL07hoYUo38gdmO+1YNM7cAU2EXm7V8GiuALfwLuIvN5qkLSJoQBVI50Us0Y7q7KLcguQ6yBC s5AU6NsEvOiACpQS1CRX4xLYwv/YB/cSiPHsB/F2oNcwCbd5kbyob0MGUm6t7QNC3AdL5Av4NNQb kgm+rWF2dq3+XSSnYpTI6nbDK+qptfZHgoikkMwooQTwA1cXfoT8gAQTAAAAAElFTkSuQmCC " y="61"/>
+    </g>
+    <g id="left" inkscape:export-filename="/home/diau/svn/playground-plasma/desktoptheme/air/widgets/image2579.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" transform="translate(7.0000004,8.998957)">
+      <path d="M 10.000891,8 L 10.000891,37.999998 L 3.0008914,37.999998 C 2.9985533,37.949944 3.0008914,37.906213 3.0008914,37.855767 L 3.0008914,8.1442315 C 3.0008914,8.0937846 2.9985533,8.050054 3.0008914,8 L 10.000891,8 z" id="path10432" style="fill:url(#radialGradient3446);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;opacity:0"/>
+      <path d="M 4,8 L 4,37.999998 L 3,37.999998 C 2.999666,37.949944 3,37.906213 3,37.855767 L 3,8.1442315 C 3,8.0937846 2.999666,8.050054 3,8 L 4,8 z" id="path10434" style="fill:url(#linearGradient3448);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"/>
+      <image height="30" id="image3395" style="opacity:0.86" width="9" x="-6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAGCAYAAAARx7TFAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A /wD/oL2nkwAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB9kCGA4ONdQmD/AAAAAZdEVYdENv bW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAK0lEQVQI183KMQ4AEBAAwSEnIiH3/4fqNR6g tM00W9AQ146BiYXErh76cTruyAFHc5aDHgAAAABJRU5ErkJggg== " y="8"/>
+      <path d="M 2.9999996,8.001045 L 2.9999996,38.001043 L 1.9999996,38.001043 C 1.9996656,37.950989 1.9999996,37.907258 1.9999996,37.856812 L 1.9999996,8.1452765 C 1.9999996,8.0948296 1.9996656,8.051099 1.9999996,8.001045 L 2.9999996,8.001045 z" id="path4451" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;opacity:0.2" class="ColorScheme-ViewFocus"/>
+    </g>
+    <g id="bottomright" inkscape:export-filename="/home/diau/svn/playground-plasma/desktoptheme/air/widgets/image2579.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" transform="translate(7.0000004,-14.001043)">
+      <g id="g3810">
+        <path d="M 54 47 L 54 50 C 53.932784 52.1827 52.182708 53.932778 50 54 L 47 54 L 47 55 L 50 55 C 53 55 55 52.5577 55 50 L 55 47 L 54 47 z " id="path4463" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;opacity:0.2" transform="translate(-7.0000004,14.001043)" class="ColorScheme-ViewFocus"/>
+      </g>
+      <image height="16" id="image3791" style="opacity:0.86" transform="scale(-1,1)" width="16" x="-56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A /wD/oL2nkwAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB9kCGA4NKnIDUcYAAAAZdEVYdENv bW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAA50lEQVQ4y5WSa04DMQyEvzxgF1GV3whxQJ8o Z+JCBZp98ANbMlazqJFGsSKNPZNxAh6Aovcj8AQ8AyfgDFxaax8MTgZ2rXfF5rDqzVEDT/ZNVod/ GzAgL07hoYUo38gdmO+1YNM7cAU2EXm7V8GiuALfwLuIvN5qkLSJoQBVI50Us0Y7q7KLcguQ6yBC s5AU6NsEvOiACpQS1CRX4xLYwv/YB/cSiPHsB/F2oNcwCbd5kbyob0MGUm6t7QNC3AdL5Av4NNQb kgm+rWF2dq3+XSSnYpTI6nbDK+qptfZHgoikkMwooQTwA1cXfoT8gAQTAAAAAElFTkSuQmCC " y="61"/>
+    </g>
+    <g id="right" inkscape:export-filename="/home/diau/svn/playground-plasma/desktoptheme/air/widgets/image2579.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" transform="translate(7.0000004,8.998957)">
+      <image height="30" id="image3875" style="opacity:0.86" transform="scale(-1,1)" width="9" x="-56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAGCAYAAAARx7TFAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A /wD/oL2nkwAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB9kCGA4ONdQmD/AAAAAZdEVYdENv bW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAK0lEQVQI183KMQ4AEBAAwSEnIiH3/4fqNR6g tM00W9AQ146BiYXErh76cTruyAFHc5aDHgAAAABJRU5ErkJggg== " y="8"/>
+      <g id="g4067" transform="translate(-0.999109,-2.3e-6)">
+        <path d="M 41.000148,8.0000023 L 41.000148,38 L 47.999109,38 C 48.001446,37.949946 47.999109,37.906215 47.999109,37.855769 L 47.999109,8.1442338 C 47.999109,8.0937869 48.001446,8.0500563 47.999109,8.0000023 L 41.000148,8.0000023 z" id="path2679" style="fill:url(#radialGradient4077);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;opacity:0"/>
+        <path d="M 47,8.0000023 L 47,38 L 48,38 C 48.000334,37.949946 48,37.906215 48,37.855769 L 48,8.1442338 C 48,8.0937869 48.000334,8.0500563 48,8.0000023 L 47,8.0000023 z" id="path5344" style="fill:url(#linearGradient4079);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"/>
+        <path d="M 47.999109,8.0010453 L 47.999109,38.001043 L 48.999109,38.001043 C 48.999443,37.950989 48.999109,37.907258 48.999109,37.856812 L 48.999109,8.1452768 C 48.999109,8.0948299 48.999443,8.0510993 48.999109,8.0010453 L 47.999109,8.0010453 z" id="path4459" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.59999996000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;opacity:0.2" class="ColorScheme-ViewFocus"/>
+      </g>
+    </g>
+    <rect height="4" id="hint-left-margin" style="opacity:0.875;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="14" x="1" y="30" class="ColorScheme-Text"/>
+    <rect height="14" id="hint-top-margin" style="opacity:0.875;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="4" x="31" y="1" class="ColorScheme-Text"/>
+    <rect height="14" id="hint-bottom-margin" style="opacity:0.875;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="4" x="31" y="49" class="ColorScheme-Text"/>
+    <rect height="4" id="hint-right-margin" style="opacity:0.875;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="14" x="49" y="30" class="ColorScheme-Text"/>
+    <g id="g4240" inkscape:label="layer1" style="display:none" transform="translate(-1919.565,-153.36219)"/>
+    <g id="g4242" inkscape:label="glow" style="display:inline" transform="translate(-1919.565,-153.36219)"/>
+    <g id="g4244" inkscape:label="layer1" style="display:none" transform="translate(509.49601,-1633.2416)"/>
+    <g id="g4246" inkscape:label="glow" style="display:inline" transform="translate(509.49601,-1633.2416)"/>
+    <g id="g4248" inkscape:label="Layer 1" transform="translate(555.47381,-664.37887)"/>
+    <g id="g4250" inkscape:label="Layer 1" transform="translate(2341.7643,-280.92083)"/>
+    <g id="g4252" inkscape:label="Layer 1" transform="translate(3446.5895,-1159.1902)"/>
+    <g id="g4254" inkscape:label="Layer 1" transform="translate(1048.7198,-1174.5374)"/>
+    <g id="g4256" inkscape:label="Layer 1" transform="translate(-302.09768,154.07425)"/>
+    <g id="g4258" inkscape:label="Layer 1" transform="translate(802.72751,-724.19507)"/>
+    <g id="g4260" inkscape:label="Layer 1" transform="translate(-1595.1422,-739.54227)"/>
+    <g id="g4262" inkscape:label="Layer 1" transform="translate(1844.4023,146.07425)"/>
+    <g id="g4264" inkscape:label="Layer 1" transform="translate(2949.2275,-732.19507)"/>
+    <g id="g4266" inkscape:label="Layer 1" transform="translate(551.35781,-747.54227)"/>
+    <g id="g4268" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-619.56498,607.03125)"/>
+    <text id="text4270" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans" x="-395.565" xml:space="preserve" y="104.00001" class="ColorScheme-ViewFocus">
+      <tspan id="tspan4272" sodipodi:role="line" x="-395.565" y="104.00001"/>
+    </text>
+    <g id="g3029" inkscape:label="layer1" style="display:none" transform="translate(-1407.0183,-916.69576)"/>
+    <g id="g3031" inkscape:label="glow" style="display:inline" transform="translate(-1407.0183,-916.69576)"/>
+    <g id="g3033" inkscape:label="layer1" style="display:none" transform="translate(1022.0427,-2396.5752)"/>
+    <g id="g3035" inkscape:label="glow" style="display:inline" transform="translate(1022.0427,-2396.5752)"/>
+    <g id="g3037" inkscape:label="Layer 1" transform="translate(1068.0205,-1427.7125)"/>
+    <g id="g3039" inkscape:label="Layer 1" transform="translate(2854.311,-1044.2544)"/>
+    <g id="g3041" inkscape:label="Layer 1" transform="translate(3959.1362,-1922.5238)"/>
+    <g id="g3043" inkscape:label="Layer 1" transform="translate(1561.2665,-1937.871)"/>
+    <g id="g3045" inkscape:label="Layer 1" transform="translate(210.44898,-609.25932)"/>
+    <g id="g3047" inkscape:label="Layer 1" transform="translate(1315.2742,-1487.5287)"/>
+    <g id="g3049" inkscape:label="Layer 1" transform="translate(-1082.5955,-1502.8759)"/>
+    <g id="g3051" inkscape:label="Layer 1" transform="translate(2356.949,-617.25932)"/>
+    <g id="g3053" inkscape:label="Layer 1" transform="translate(3461.7742,-1495.5287)"/>
+    <g id="g3055" inkscape:label="Layer 1" transform="translate(1063.9045,-1510.8759)"/>
+    <g id="g3057" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-107.01832,-156.30232)"/>
+    <text id="text3059" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans" x="116.98167" xml:space="preserve" y="-659.33356" class="ColorScheme-ViewFocus">
+      <tspan id="tspan3061" sodipodi:role="line" x="116.98167" y="-659.33356"/>
+    </text>
+    <g id="g3220" inkscape:label="layer1" style="display:none" transform="translate(-1873.1382,-604.83886)"/>
+    <g id="g3222" inkscape:label="glow" style="display:inline" transform="translate(-1873.1382,-604.83886)"/>
+    <g id="g3224" inkscape:label="layer1" style="display:none" transform="translate(555.92277,-2084.7183)"/>
+    <g id="g3226" inkscape:label="glow" style="display:inline" transform="translate(555.92277,-2084.7183)"/>
+    <g id="g3228" inkscape:label="Layer 1" transform="translate(601.90057,-1115.8555)"/>
+    <g id="g3230" inkscape:label="Layer 1" transform="translate(2388.1911,-732.3975)"/>
+    <g id="g3232" inkscape:label="Layer 1" transform="translate(3493.0163,-1610.6669)"/>
+    <g id="g3234" inkscape:label="Layer 1" transform="translate(1095.1466,-1626.0141)"/>
+    <g id="g3236" inkscape:label="Layer 1" transform="translate(-255.67092,-297.40242)"/>
+    <g id="g3238" inkscape:label="Layer 1" transform="translate(849.15427,-1175.6717)"/>
+    <g id="g3240" inkscape:label="Layer 1" transform="translate(-1548.7154,-1191.0189)"/>
+    <g id="g3242" inkscape:label="Layer 1" transform="translate(1890.8291,-305.40242)"/>
+    <g id="g3244" inkscape:label="Layer 1" transform="translate(2995.6543,-1183.6717)"/>
+    <g id="g3246" inkscape:label="Layer 1" transform="translate(597.78457,-1199.0189)"/>
+    <g id="g3248" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-573.13822,155.55458)"/>
+    <text id="text3250" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans" x="-349.13824" xml:space="preserve" y="-347.47665" class="ColorScheme-ViewFocus">
+      <tspan id="tspan3252" sodipodi:role="line" x="-349.13824" y="-347.47665"/>
+    </text>
+    <g id="g4239" transform="translate(727.41708,-947.76941)">
+      <g id="g4241"/>
+    </g>
+    <g id="g5306" inkscape:label="layer1" style="display:none" transform="translate(-1428.0829,-1175.1316)"/>
+    <g id="g5308" inkscape:label="glow" style="display:inline" transform="translate(-1428.0829,-1175.1316)"/>
+    <g id="g5310" inkscape:label="layer1" style="display:none" transform="translate(1000.9781,-2655.011)"/>
+    <g id="g5312" inkscape:label="glow" style="display:inline" transform="translate(1000.9781,-2655.011)"/>
+    <g id="g5314" inkscape:label="Layer 1" transform="translate(1046.9559,-1686.1483)"/>
+    <g id="g5316" inkscape:label="Layer 1" transform="translate(2833.2464,-1302.6902)"/>
+    <g id="g5318" inkscape:label="Layer 1" transform="translate(3938.0716,-2180.9597)"/>
+    <g id="g5320" inkscape:label="Layer 1" transform="translate(1540.2019,-2196.3069)"/>
+    <g id="g5322" inkscape:label="Layer 1" transform="translate(189.38438,-867.69516)"/>
+    <g id="g5324" inkscape:label="Layer 1" transform="translate(1294.2096,-1745.9645)"/>
+    <g id="g5326" inkscape:label="Layer 1" transform="translate(-1103.6601,-1761.3117)"/>
+    <g id="g5328" inkscape:label="Layer 1" transform="translate(2335.8844,-875.69516)"/>
+    <g id="g5330" inkscape:label="Layer 1" transform="translate(3440.7096,-1753.9645)"/>
+    <g id="g5332" inkscape:label="Layer 1" transform="translate(1042.8399,-1769.3118)"/>
+    <g id="g5334" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-128.08292,-414.73816)"/>
+    <text id="text5336" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="95.917076" xml:space="preserve" y="-917.76941" class="ColorScheme-ViewFocus">
+      <tspan id="tspan5338" sodipodi:role="line" x="95.917076" y="-917.76941"/>
+    </text>
+    <g id="layer4" inkscape:label="box" style="display:inline" transform="translate(-657.97735,-843.39846)"/>
+    <g id="layer5" inkscape:label="zip_app" style="display:inline" transform="translate(-657.97735,-843.39846)"/>
+    <rect height="0" id="rect1327" style="opacity:0.57786889;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.63199997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4;stroke-opacity:1" width="1" x="-744.44672" y="-904.93115" class="ColorScheme-ViewHover"/>
+    <rect height="0" id="rect2482" style="opacity:0.57786889;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.63199997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4;stroke-opacity:1" width="1" x="-779.57355" y="-932.45874" class="ColorScheme-ViewHover"/>
+    <g id="g4640" style="opacity:0.40163933" transform="matrix(-0.782995,0,0,0.650879,-3261.3688,-319.15711)"/>
+    <g id="g4646" style="opacity:0.40163933" transform="matrix(-0.782995,0,0,0.650879,-3261.3688,-319.15711)"/>
+    <g id="g4730" style="opacity:0.40163933" transform="matrix(1,0,0,0.650879,-60.406552,-311.82931)"/>
+    <g id="g4748" style="opacity:0.40163933" transform="matrix(1,0,0,0.650879,-60.406552,-311.82931)"/>
+    <g id="g5475" inkscape:label="layer1" style="display:none" transform="translate(-6804.0001,-1336.3823)"/>
+    <g id="g5477" inkscape:label="glow" style="display:inline" transform="translate(-6804.0001,-1336.3823)"/>
+    <g id="g5479" inkscape:label="layer1" style="display:none" transform="translate(-4374.9391,-2816.2617)"/>
+    <g id="g5481" inkscape:label="glow" style="display:inline" transform="translate(-4374.9391,-2816.2617)"/>
+    <g id="g5483" inkscape:label="Layer 1" transform="translate(-4328.9613,-1847.399)"/>
+    <g id="g5485" inkscape:label="Layer 1" transform="translate(-2542.6708,-1463.941)"/>
+    <g id="g5487" inkscape:label="Layer 1" transform="translate(-1437.8456,-2342.2103)"/>
+    <g id="g5489" inkscape:label="Layer 1" transform="translate(-3835.7153,-2357.5575)"/>
+    <g id="g5491" inkscape:label="Layer 1" transform="translate(-5186.5328,-1028.9459)"/>
+    <g id="g5493" inkscape:label="Layer 1" transform="translate(-4081.7076,-1907.2152)"/>
+    <g id="g5495" inkscape:label="Layer 1" transform="translate(-6479.5773,-1922.5624)"/>
+    <g id="g5497" inkscape:label="Layer 1" transform="translate(-3040.0328,-1036.9459)"/>
+    <g id="g5499" inkscape:label="Layer 1" transform="translate(-1935.2076,-1915.2152)"/>
+    <g id="g5501" inkscape:label="Layer 1" transform="translate(-4333.0773,-1930.5625)"/>
+    <g id="g5503" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-5504.0001,-575.98885)"/>
+    <text id="text5505" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-5280" xml:space="preserve" y="-1079.0201" class="ColorScheme-ViewFocus">
+      <tspan id="tspan5507" sodipodi:role="line" x="-5280" y="-1079.0201"/>
+    </text>
+    <g id="g6557" inkscape:label="layer1" style="display:none" transform="translate(-2066.8329,-685.0691)"/>
+    <g id="g6559" inkscape:label="glow" style="display:inline" transform="translate(-2066.8329,-685.0691)"/>
+    <g id="g6561" inkscape:label="layer1" style="display:none" transform="translate(362.22808,-2164.9485)"/>
+    <g id="g6563" inkscape:label="glow" style="display:inline" transform="translate(362.22808,-2164.9485)"/>
+    <g id="g6565" inkscape:label="Layer 1" transform="translate(408.20588,-1196.0858)"/>
+    <g id="g6567" inkscape:label="Layer 1" transform="translate(2194.4964,-812.62774)"/>
+    <g id="g6569" inkscape:label="Layer 1" transform="translate(3299.3216,-1690.8971)"/>
+    <g id="g6571" inkscape:label="Layer 1" transform="translate(901.45188,-1706.2443)"/>
+    <g id="g6573" inkscape:label="Layer 1" transform="translate(-449.36562,-377.63266)"/>
+    <g id="g6575" inkscape:label="Layer 1" transform="translate(655.45958,-1255.902)"/>
+    <g id="g6577" inkscape:label="Layer 1" transform="translate(-1742.4101,-1271.2492)"/>
+    <g id="g6579" inkscape:label="Layer 1" transform="translate(1697.1344,-385.63266)"/>
+    <g id="g6581" inkscape:label="Layer 1" transform="translate(2801.9596,-1263.902)"/>
+    <g id="g6583" inkscape:label="Layer 1" transform="translate(404.08988,-1279.2492)"/>
+    <g id="g6585" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-766.83292,75.32439)"/>
+    <text id="text6588" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-542.83295" xml:space="preserve" y="-427.70691" class="ColorScheme-ViewFocus">
+      <tspan id="tspan6590" sodipodi:role="line" x="-542.83295" y="-427.70691"/>
+    </text>
+    <g id="g8959" inkscape:label="layer1" style="display:none" transform="translate(778.91708,-1978.8804)"/>
+    <g id="g8961" inkscape:label="glow" style="display:inline" transform="translate(778.91708,-1978.8804)"/>
+    <g id="g8963" inkscape:label="layer1" style="display:none" transform="translate(3207.9781,-3458.7598)"/>
+    <g id="g8965" inkscape:label="glow" style="display:inline" transform="translate(3207.9781,-3458.7598)"/>
+    <g id="g8967" inkscape:label="Layer 1" transform="translate(3253.9559,-2489.8971)"/>
+    <g id="g8969" inkscape:label="Layer 1" transform="translate(5040.2464,-2106.439)"/>
+    <g id="g8971" inkscape:label="Layer 1" transform="translate(6145.0716,-2984.7084)"/>
+    <g id="g8973" inkscape:label="Layer 1" transform="translate(3747.2019,-3000.0556)"/>
+    <g id="g8975" inkscape:label="Layer 1" transform="translate(2396.3844,-1671.4439)"/>
+    <g id="g8977" inkscape:label="Layer 1" transform="translate(3501.2096,-2549.7133)"/>
+    <g id="g8979" inkscape:label="Layer 1" transform="translate(1103.3399,-2565.0605)"/>
+    <g id="g8981" inkscape:label="Layer 1" transform="translate(4542.8844,-1679.4439)"/>
+    <g id="g8983" inkscape:label="Layer 1" transform="translate(5647.7096,-2557.7133)"/>
+    <g id="g8985" inkscape:label="Layer 1" transform="translate(3249.8399,-2573.0605)"/>
+    <g id="g9072" style="opacity:0.45945943" transform="matrix(1,0,0,-1,2078.9171,-1218.4869)"/>
+    <text id="text9074" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="2302.917" xml:space="preserve" y="-1721.5182" class="ColorScheme-ViewFocus">
+      <tspan id="tspan9076" sodipodi:role="line" x="2302.917" y="-1721.5182"/>
+    </text>
+    <g id="g3159" inkscape:label="layer1" style="display:none" transform="translate(-1809.9353,-659.03037)"/>
+    <g id="g3161" inkscape:label="glow" style="display:inline" transform="translate(-1809.9353,-659.03037)"/>
+    <g id="g3163" inkscape:label="layer1" style="display:none" transform="translate(619.12569,-2138.9098)"/>
+    <g id="g3165" inkscape:label="glow" style="display:inline" transform="translate(619.12569,-2138.9098)"/>
+    <g id="g3167" inkscape:label="Layer 1" transform="translate(665.10347,-1170.0471)"/>
+    <g id="g3169" inkscape:label="Layer 1" transform="translate(2451.394,-786.58901)"/>
+    <g id="g3171" inkscape:label="Layer 1" transform="translate(3556.2192,-1664.8584)"/>
+    <g id="g3173" inkscape:label="Layer 1" transform="translate(1158.3495,-1680.2056)"/>
+    <g id="g3175" inkscape:label="Layer 1" transform="translate(-192.46801,-351.59393)"/>
+    <g id="g3177" inkscape:label="Layer 1" transform="translate(912.35717,-1229.8633)"/>
+    <g id="g3179" inkscape:label="Layer 1" transform="translate(-1485.5125,-1245.2105)"/>
+    <g id="g3181" inkscape:label="Layer 1" transform="translate(1954.032,-359.59393)"/>
+    <g id="g3183" inkscape:label="Layer 1" transform="translate(3058.8572,-1237.8633)"/>
+    <g id="g3185" inkscape:label="Layer 1" transform="translate(660.98747,-1253.2105)"/>
+    <g id="g3187" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-509.93531,101.36307)"/>
+    <text id="text3189" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans" x="-285.9353" xml:space="preserve" y="-401.66818" class="ColorScheme-ViewFocus">
+      <tspan id="tspan3191" sodipodi:role="line" x="-285.9353" y="-401.66818"/>
+    </text>
+    <g id="g3328" inkscape:label="layer1" style="display:none" transform="translate(-2276.0552,-347.17347)"/>
+    <g id="g3330" inkscape:label="glow" style="display:inline" transform="translate(-2276.0552,-347.17347)"/>
+    <g id="g3332" inkscape:label="layer1" style="display:none" transform="translate(153.00578,-1827.0529)"/>
+    <g id="g3334" inkscape:label="glow" style="display:inline" transform="translate(153.00578,-1827.0529)"/>
+    <g id="g3336" inkscape:label="Layer 1" transform="translate(198.98358,-858.19015)"/>
+    <g id="g3338" inkscape:label="Layer 1" transform="translate(1985.2741,-474.73211)"/>
+    <g id="g3340" inkscape:label="Layer 1" transform="translate(3090.0993,-1353.0015)"/>
+    <g id="g3342" inkscape:label="Layer 1" transform="translate(692.22957,-1368.3487)"/>
+    <g id="g3344" inkscape:label="Layer 1" transform="translate(-658.58791,-39.73703)"/>
+    <g id="g3346" inkscape:label="Layer 1" transform="translate(446.23728,-918.00635)"/>
+    <g id="g3348" inkscape:label="Layer 1" transform="translate(-1951.6324,-933.35355)"/>
+    <g id="g3350" inkscape:label="Layer 1" transform="translate(1487.9121,-47.73703)"/>
+    <g id="g3352" inkscape:label="Layer 1" transform="translate(2592.7373,-926.00635)"/>
+    <g id="g3354" inkscape:label="Layer 1" transform="translate(194.86758,-941.35355)"/>
+    <g id="g3356" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-976.05521,413.21997)"/>
+    <text id="text3358" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans" x="-752.05524" xml:space="preserve" y="-89.811272" class="ColorScheme-ViewFocus">
+      <tspan id="tspan3360" sodipodi:role="line" x="-752.05524" y="-89.811272"/>
+    </text>
+    <g id="g3362" transform="translate(324.50009,-690.10402)">
+      <g id="g3364"/>
+    </g>
+    <g id="g3366" inkscape:label="layer1" style="display:none" transform="translate(-1830.9999,-917.46621)"/>
+    <g id="g3368" inkscape:label="glow" style="display:inline" transform="translate(-1830.9999,-917.46621)"/>
+    <g id="g3370" inkscape:label="layer1" style="display:none" transform="translate(598.06109,-2397.3456)"/>
+    <g id="g3372" inkscape:label="glow" style="display:inline" transform="translate(598.06109,-2397.3456)"/>
+    <g id="g3374" inkscape:label="Layer 1" transform="translate(644.03887,-1428.4829)"/>
+    <g id="g3376" inkscape:label="Layer 1" transform="translate(2430.3294,-1045.0249)"/>
+    <g id="g3378" inkscape:label="Layer 1" transform="translate(3535.1546,-1923.2943)"/>
+    <g id="g3380" inkscape:label="Layer 1" transform="translate(1137.2849,-1938.6415)"/>
+    <g id="g3382" inkscape:label="Layer 1" transform="translate(-213.53261,-610.02977)"/>
+    <g id="g3384" inkscape:label="Layer 1" transform="translate(891.29257,-1488.2991)"/>
+    <g id="g3386" inkscape:label="Layer 1" transform="translate(-1506.5771,-1503.6463)"/>
+    <g id="g3388" inkscape:label="Layer 1" transform="translate(1932.9674,-618.02977)"/>
+    <g id="g3390" inkscape:label="Layer 1" transform="translate(3037.7926,-1496.2991)"/>
+    <g id="g3392" inkscape:label="Layer 1" transform="translate(639.92289,-1511.6464)"/>
+    <g id="g3394" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-530.99991,-157.07277)"/>
+    <text id="text3396" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-306.99991" xml:space="preserve" y="-660.10406" class="ColorScheme-ViewFocus">
+      <tspan id="tspan3398" sodipodi:role="line" x="-306.99991" y="-660.10406"/>
+    </text>
+    <g id="g3400" inkscape:label="box" style="display:inline" transform="translate(-1060.8943,-585.73307)"/>
+    <g id="g3402" inkscape:label="zip_app" style="display:inline" transform="translate(-1060.8943,-585.73307)"/>
+    <rect height="0" id="rect3404" style="opacity:0.57786889;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.63199997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4;stroke-opacity:1" width="1" x="-1147.3636" y="-647.26575" class="ColorScheme-ViewHover"/>
+    <rect height="0" id="rect3406" style="opacity:0.57786889;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.63199997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4;stroke-opacity:1" width="1" x="-1182.4905" y="-674.7934" class="ColorScheme-ViewHover"/>
+    <g id="g3408" style="opacity:0.40163933" transform="matrix(-0.782995,0,0,0.650879,-3664.2858,-61.49172)"/>
+    <g id="g3410" style="opacity:0.40163933" transform="matrix(-0.782995,0,0,0.650879,-3664.2858,-61.49172)"/>
+    <g id="g3412" style="opacity:0.40163933" transform="matrix(1,0,0,0.650879,-463.32354,-54.16392)"/>
+    <g id="g3414" style="opacity:0.40163933" transform="matrix(1,0,0,0.650879,-463.32354,-54.16392)"/>
+    <g id="g3416" inkscape:label="layer1" style="display:none" transform="translate(-7206.9171,-1078.7169)"/>
+    <g id="g3418" inkscape:label="glow" style="display:inline" transform="translate(-7206.9171,-1078.7169)"/>
+    <g id="g3420" inkscape:label="layer1" style="display:none" transform="translate(-4777.8561,-2558.5963)"/>
+    <g id="g3422" inkscape:label="glow" style="display:inline" transform="translate(-4777.8561,-2558.5963)"/>
+    <g id="g3424" inkscape:label="Layer 1" transform="translate(-4731.8783,-1589.7336)"/>
+    <g id="g3426" inkscape:label="Layer 1" transform="translate(-2945.5878,-1206.2756)"/>
+    <g id="g3428" inkscape:label="Layer 1" transform="translate(-1840.7626,-2084.5449)"/>
+    <g id="g3430" inkscape:label="Layer 1" transform="translate(-4238.6323,-2099.8921)"/>
+    <g id="g3432" inkscape:label="Layer 1" transform="translate(-5589.4498,-771.28046)"/>
+    <g id="g3434" inkscape:label="Layer 1" transform="translate(-4484.6246,-1649.5498)"/>
+    <g id="g3436" inkscape:label="Layer 1" transform="translate(-6882.4943,-1664.897)"/>
+    <g id="g3438" inkscape:label="Layer 1" transform="translate(-3442.9498,-779.28046)"/>
+    <g id="g3440" inkscape:label="Layer 1" transform="translate(-2338.1246,-1657.5498)"/>
+    <g id="g3442" inkscape:label="Layer 1" transform="translate(-4735.9943,-1672.8971)"/>
+    <g id="g3444" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-5906.9171,-318.32346)"/>
+    <text id="text3446" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-5682.917" xml:space="preserve" y="-821.35474" class="ColorScheme-ViewFocus">
+      <tspan id="tspan3448" sodipodi:role="line" x="-5682.917" y="-821.35474"/>
+    </text>
+    <g id="g3450" inkscape:label="layer1" style="display:none" transform="translate(-2469.7499,-427.40371)"/>
+    <g id="g3452" inkscape:label="glow" style="display:inline" transform="translate(-2469.7499,-427.40371)"/>
+    <g id="g3454" inkscape:label="layer1" style="display:none" transform="translate(-40.68891,-1907.2831)"/>
+    <g id="g3456" inkscape:label="glow" style="display:inline" transform="translate(-40.68891,-1907.2831)"/>
+    <g id="g3458" inkscape:label="Layer 1" transform="translate(5.28889,-938.42043)"/>
+    <g id="g3460" inkscape:label="Layer 1" transform="translate(1791.5794,-554.96235)"/>
+    <g id="g3462" inkscape:label="Layer 1" transform="translate(2896.4046,-1433.2317)"/>
+    <g id="g3464" inkscape:label="Layer 1" transform="translate(498.53489,-1448.5789)"/>
+    <g id="g3466" inkscape:label="Layer 1" transform="translate(-852.28261,-119.96727)"/>
+    <g id="g3468" inkscape:label="Layer 1" transform="translate(252.54259,-998.23663)"/>
+    <g id="g3470" inkscape:label="Layer 1" transform="translate(-2145.3271,-1013.5838)"/>
+    <g id="g3472" inkscape:label="Layer 1" transform="translate(1294.2174,-127.96727)"/>
+    <g id="g3474" inkscape:label="Layer 1" transform="translate(2399.0426,-1006.2366)"/>
+    <g id="g3476" inkscape:label="Layer 1" transform="translate(1.17289,-1021.5839)"/>
+    <g id="g3478" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-1169.7499,332.98978)"/>
+    <text id="text3480" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-945.74994" xml:space="preserve" y="-170.04152" class="ColorScheme-ViewFocus">
+      <tspan id="tspan3482" sodipodi:role="line" x="-945.74994" y="-170.04152"/>
+    </text>
+    <g id="g3484" inkscape:label="layer1" style="display:none" transform="translate(376.00009,-1721.215)"/>
+    <g id="g3486" inkscape:label="glow" style="display:inline" transform="translate(376.00009,-1721.215)"/>
+    <g id="g3488" inkscape:label="layer1" style="display:none" transform="translate(2805.0611,-3201.0944)"/>
+    <g id="g3490" inkscape:label="glow" style="display:inline" transform="translate(2805.0611,-3201.0944)"/>
+    <g id="g3492" inkscape:label="Layer 1" transform="translate(2851.0389,-2232.2317)"/>
+    <g id="g3494" inkscape:label="Layer 1" transform="translate(4637.3294,-1848.7736)"/>
+    <g id="g3496" inkscape:label="Layer 1" transform="translate(5742.1546,-2727.043)"/>
+    <g id="g3498" inkscape:label="Layer 1" transform="translate(3344.2849,-2742.3902)"/>
+    <g id="g3500" inkscape:label="Layer 1" transform="translate(1993.4674,-1413.7785)"/>
+    <g id="g3502" inkscape:label="Layer 1" transform="translate(3098.2926,-2292.0479)"/>
+    <g id="g3504" inkscape:label="Layer 1" transform="translate(700.42287,-2307.3951)"/>
+    <g id="g3506" inkscape:label="Layer 1" transform="translate(4139.9674,-1421.7785)"/>
+    <g id="g3508" inkscape:label="Layer 1" transform="translate(5244.7926,-2300.0479)"/>
+    <g id="g3510" inkscape:label="Layer 1" transform="translate(2846.9229,-2315.3951)"/>
+    <g id="g3512" style="opacity:0.45945943" transform="matrix(1,0,0,-1,1676.0001,-960.82152)"/>
+    <text id="text3514" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="1900" xml:space="preserve" y="-1463.8528" class="ColorScheme-ViewFocus">
+      <tspan id="tspan3516" sodipodi:role="line" x="1900" y="-1463.8528"/>
+    </text>
+    <g id="g3978" transform="translate(-811.99021,-516.06253)">
+      <g id="g3980"/>
+    </g>
+    <g id="layer1-7" inkscape:label="layer1" style="display:none" transform="translate(-2967.4902,-743.42472)"/>
+    <g id="g3983" inkscape:label="glow" style="display:inline" transform="translate(-2967.4902,-743.42472)"/>
+    <g id="g3985" inkscape:label="layer1" style="display:none" transform="translate(-538.42921,-2223.3042)"/>
+    <g id="g3987" inkscape:label="glow" style="display:inline" transform="translate(-538.42921,-2223.3042)"/>
+    <g id="g3989" inkscape:label="Layer 1" transform="translate(-492.45141,-1254.4415)"/>
+    <g id="g3991" inkscape:label="Layer 1" transform="translate(1293.8391,-870.98336)"/>
+    <g id="g3993" inkscape:label="Layer 1" transform="translate(2398.6643,-1749.2528)"/>
+    <g id="g3995" inkscape:label="Layer 1" transform="translate(0.79459,-1764.6)"/>
+    <g id="g3997" inkscape:label="Layer 1" transform="translate(-1350.0229,-435.98828)"/>
+    <g id="g3999" inkscape:label="Layer 1" transform="translate(-245.19771,-1314.2577)"/>
+    <g id="g4001" inkscape:label="Layer 1" transform="translate(-2643.0674,-1329.6049)"/>
+    <g id="g4003" inkscape:label="Layer 1" transform="translate(796.47707,-443.98828)"/>
+    <g id="g4005" inkscape:label="Layer 1" transform="translate(1901.3023,-1322.2577)"/>
+    <g id="g4007" inkscape:label="Layer 1" transform="translate(-496.56741,-1337.6049)"/>
+    <g id="g4009" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-1667.4902,16.96874)"/>
+    <text id="text4011" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-1443.4902" xml:space="preserve" y="-486.0625" class="ColorScheme-ViewFocus">
+      <tspan id="tspan4013" sodipodi:role="line" x="-1443.4902" y="-486.0625"/>
+    </text>
+    <g id="g4015" inkscape:label="box" style="display:inline" transform="translate(-2197.3846,-411.69158)"/>
+    <g id="g4017" inkscape:label="zip_app" style="display:inline" transform="translate(-2197.3846,-411.69158)"/>
+    <rect height="0" id="rect4019" style="opacity:0.57786889;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" width="1" x="-2283.854" y="-473.22424" class="ColorScheme-ViewHover"/>
+    <rect height="0" id="rect4021" style="opacity:0.57786889;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" width="1" x="-2318.9807" y="-500.75183" class="ColorScheme-ViewHover"/>
+    <g id="g4023" style="opacity:0.40163933" transform="matrix(-0.782995,0,0,0.650879,-4800.7761,112.54974)"/>
+    <g id="g4025" style="opacity:0.40163933" transform="matrix(-0.782995,0,0,0.650879,-4800.7761,112.54974)"/>
+    <g id="g4027" style="opacity:0.40163933" transform="matrix(1,0,0,0.650879,-1599.8138,119.87754)"/>
+    <g id="g4029" style="opacity:0.40163933" transform="matrix(1,0,0,0.650879,-1599.8138,119.87754)"/>
+    <g id="g4031" inkscape:label="layer1" style="display:none" transform="translate(-8343.4074,-904.67541)"/>
+    <g id="g4033" inkscape:label="glow" style="display:inline" transform="translate(-8343.4074,-904.67541)"/>
+    <g id="g4035" inkscape:label="layer1" style="display:none" transform="translate(-5914.3464,-2384.5549)"/>
+    <g id="g4037" inkscape:label="glow" style="display:inline" transform="translate(-5914.3464,-2384.5549)"/>
+    <g id="g4039" inkscape:label="Layer 1" transform="translate(-5868.3686,-1415.6922)"/>
+    <g id="g4041" inkscape:label="Layer 1" transform="translate(-4082.0781,-1032.2341)"/>
+    <g id="g4043" inkscape:label="Layer 1" transform="translate(-2977.2529,-1910.5034)"/>
+    <g id="g4045" inkscape:label="Layer 1" transform="translate(-5375.1226,-1925.8507)"/>
+    <g id="g4047" inkscape:label="Layer 1" transform="translate(-6725.9401,-597.23897)"/>
+    <g id="g4049" inkscape:label="Layer 1" transform="translate(-5621.1149,-1475.5084)"/>
+    <g id="g4051" inkscape:label="Layer 1" transform="translate(-8018.9846,-1490.8556)"/>
+    <g id="g4053" inkscape:label="Layer 1" transform="translate(-4579.4401,-605.23897)"/>
+    <g id="g4055" inkscape:label="Layer 1" transform="translate(-3474.6149,-1483.5084)"/>
+    <g id="g4057" inkscape:label="Layer 1" transform="translate(-5872.4846,-1498.8556)"/>
+    <g id="g4059" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-7043.4074,-144.28197)"/>
+    <text id="text4061" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-6819.4072" xml:space="preserve" y="-647.31323" class="ColorScheme-ViewFocus">
+      <tspan id="tspan4063" sodipodi:role="line" x="-6819.4072" y="-647.31323"/>
+    </text>
+    <g id="g4065" inkscape:label="layer1" style="display:none" transform="translate(-3606.2402,-253.36222)"/>
+    <g id="g4068" inkscape:label="glow" style="display:inline" transform="translate(-3606.2402,-253.36222)"/>
+    <g id="g4070" inkscape:label="layer1" style="display:none" transform="translate(-1177.1792,-1733.2417)"/>
+    <g id="g4072" inkscape:label="glow" style="display:inline" transform="translate(-1177.1792,-1733.2417)"/>
+    <g id="g4074" inkscape:label="Layer 1" transform="translate(-1131.2014,-764.37894)"/>
+    <g id="g4076" inkscape:label="Layer 1" transform="translate(655.08907,-380.92086)"/>
+    <g id="g4078" inkscape:label="Layer 1" transform="translate(1759.9143,-1259.1903)"/>
+    <g id="g4080" inkscape:label="Layer 1" transform="translate(-637.95541,-1274.5375)"/>
+    <g id="g4082" inkscape:label="Layer 1" transform="translate(-1988.7729,54.07424)"/>
+    <g id="g4084" inkscape:label="Layer 1" transform="translate(-883.94771,-824.19514)"/>
+    <g id="g4086" inkscape:label="Layer 1" transform="translate(-3281.8174,-839.54234)"/>
+    <g id="g4088" inkscape:label="Layer 1" transform="translate(157.72709,46.07424)"/>
+    <g id="g4090" inkscape:label="Layer 1" transform="translate(1262.5523,-832.19514)"/>
+    <g id="g4092" inkscape:label="Layer 1" transform="translate(-1135.3174,-847.54237)"/>
+    <g id="g4094" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-2306.2402,507.03124)"/>
+    <text id="text4096" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-2082.2402" xml:space="preserve" y="3.9999993" class="ColorScheme-ViewFocus">
+      <tspan id="tspan4098" sodipodi:role="line" x="-2082.2402" y="3.9999993"/>
+    </text>
+    <g id="g4100" inkscape:label="layer1" style="display:none" transform="translate(-760.49021,-1547.1735)"/>
+    <g id="g4102" inkscape:label="glow" style="display:inline" transform="translate(-760.49021,-1547.1735)"/>
+    <g id="g4104" inkscape:label="layer1" style="display:none" transform="translate(1668.5708,-3027.053)"/>
+    <g id="g4107" inkscape:label="glow" style="display:inline" transform="translate(1668.5708,-3027.053)"/>
+    <g id="g4109" inkscape:label="Layer 1" transform="translate(1714.5486,-2058.1903)"/>
+    <g id="g4111" inkscape:label="Layer 1" transform="translate(3500.8391,-1674.7321)"/>
+    <g id="g4113" inkscape:label="Layer 1" transform="translate(4605.6643,-2553.0016)"/>
+    <g id="g4115" inkscape:label="Layer 1" transform="translate(2207.7946,-2568.3488)"/>
+    <g id="g4117" inkscape:label="Layer 1" transform="translate(856.97707,-1239.737)"/>
+    <g id="g4119" inkscape:label="Layer 1" transform="translate(1961.8023,-2118.0065)"/>
+    <g id="g4121" inkscape:label="Layer 1" transform="translate(-436.06741,-2133.3537)"/>
+    <g id="g4123" inkscape:label="Layer 1" transform="translate(3003.4771,-1247.737)"/>
+    <g id="g4125" inkscape:label="Layer 1" transform="translate(4108.3023,-2126.0065)"/>
+    <g id="g4127" inkscape:label="Layer 1" transform="translate(1710.4326,-2141.3537)"/>
+    <g id="g4129" style="opacity:0.45945943" transform="matrix(1,0,0,-1,539.50979,-786.78003)"/>
+    <text id="text4131" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="763.50977" xml:space="preserve" y="-1289.8113" class="ColorScheme-ViewFocus">
+      <tspan id="tspan4133" sodipodi:role="line" x="763.50977" y="-1289.8113"/>
+    </text>
+    <rect height="4.375" id="hint-compose-over-border" inkscape:export-filename="/home/diau/svn/playground-plasma/desktoptheme/air/widgets/image2579.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" style="opacity:0.875;fill:currentColor;fill-opacity:1;stroke:none" width="5" x="20" y="-23" class="ColorScheme-Text"/>
+    <g id="g4418-5" inkscape:label="layer1" style="display:none" transform="translate(-1184.9451,36.78484)"/>
+    <g id="layer2-6" inkscape:label="glow" style="display:inline" transform="translate(-1184.9451,36.78484)"/>
+    <g id="g2424-9" inkscape:label="layer1" style="display:none" transform="translate(1244.1159,-1443.0946)"/>
+    <g id="g2426-3" inkscape:label="glow" style="display:inline" transform="translate(1244.1159,-1443.0946)"/>
+    <g id="g3429-7" inkscape:label="Layer 1" transform="translate(1290.0937,-474.23188)"/>
+    <g id="g19758-4" inkscape:label="Layer 1" transform="translate(3076.3842,-90.7738)"/>
+    <g id="g3935-5" inkscape:label="Layer 1" transform="translate(4181.2094,-969.04317)"/>
+    <g id="g8459-2" inkscape:label="Layer 1" transform="translate(1783.3397,-984.39037)"/>
+    <g id="g28391-5" inkscape:label="Layer 1" transform="translate(432.52223,344.22128)"/>
+    <g id="g28393-4" inkscape:label="Layer 1" transform="translate(1537.3474,-534.04807)"/>
+    <g id="g28395-7" inkscape:label="Layer 1" transform="translate(-860.52229,-549.39527)"/>
+    <g id="g6598-4" inkscape:label="Layer 1" transform="translate(2579.0222,336.22128)"/>
+    <g id="g6640-4" inkscape:label="Layer 1" transform="translate(3683.8474,-542.04807)"/>
+    <g id="g6716-3" inkscape:label="Layer 1" transform="translate(1285.9777,-557.39527)"/>
+    <g id="g6850-0" style="opacity:0.45945943" transform="matrix(1,0,0,-1,115.05493,797.17828)"/>
+    <text id="text6990-7" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans" x="339.05493" xml:space="preserve" y="294.14703" class="ColorScheme-ViewFocus">
+      <tspan id="tspan6992-8" sodipodi:role="line" x="339.05493" y="294.14703"/>
+    </text>
+    <g id="mask-topleft" transform="translate(25,2)">
+      <path d="m -97,62 0,-16 -16,0 0,16 16,0 z" id="path3757" sodipodi:nodetypes="ccccc" style="opacity:0;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+      <path d="m -100,55 c -2,0 -4,2 -4,4 l 0,3 7,0 0,-7 -3,0 z" id="path3632" sodipodi:nodetypes="cccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+    </g>
+    <path d="m -72,64 0,32 32,0 0,-32 -32,0 z" id="mask-center" style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-ViewFocus"/>
+    <g id="mask-left" transform="translate(25,2)">
+      <path d="m -97,62 0,32 -16,0 0,-32 16,0 z" id="path3741" sodipodi:nodetypes="ccccc" style="fill:currentColor;fill-opacity:0;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+      <path d="m -97,62 0,32 -7,0 0,-32 7,0 z" id="path3662" sodipodi:nodetypes="ccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+    </g>
+    <g id="mask-right" transform="matrix(-0.8887345,0,0,1,-126.20447,2)">
+      <path d="M -96.999554,61.999999 -96.999554,94 -115,94 c -0.006,-0.05339 0,-0.100037 0,-0.153846 l 0,-31.692308 c 0,-0.05381 -0.006,-0.100456 0,-0.153847 l 18.000446,0 z" id="path3487" style="fill:currentColor;fill-opacity:0;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+      <path d="m -96.999552,61.999999 0,32.000001 -7.875198,0 c -0.003,-0.05339 0,-0.100037 0,-0.153846 l 0,-31.692308 c 0,-0.05381 -0.003,-0.100456 0,-0.153847 l 7.875198,0 z" id="path3489" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+    </g>
+    <g id="mask-top" transform="matrix(0,0.8887345,1,0,-134,150.20685)">
+      <path d="m -97,62 0,32 -18,0 c 0,0 0,0 0,0 l 0,-32 c 0,0 0,0 0,0 l 18,0 z" id="path3493" style="fill:currentColor;fill-opacity:0;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+      <path d="m -97,62 0,32 -7.87592,0 0,-32 L -97,62 z" id="path3495" sodipodi:nodetypes="ccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+    </g>
+    <g id="mask-bottom" transform="matrix(0,-0.8887345,1,0,-134,9.79553)">
+      <path d="M -96.999554,61.999999 -96.999554,94 -115,94 c -0.006,-0.05339 0,-0.100037 0,-0.153846 l 0,-31.692308 c 0,-0.05381 -0.006,-0.100456 0,-0.153847 l 18.000446,0 z" id="path3499" style="fill:currentColor;fill-opacity:0;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+      <path d="m -96.999552,61.999999 0,32.000001 -7.875198,0 c -0.003,-0.05339 0,-0.100037 0,-0.153846 l 0,-31.692308 c 0,-0.05381 -0.003,-0.100456 0,-0.153847 l 7.875198,0 z" id="path3501" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+    </g>
+    <g id="mask-topright" transform="matrix(0,1,-1,0,22,161)">
+      <path d="m -97.001191,61.999999 0,-16 -15.997619,0 c -0.005,0.02669 0,0.05002 0,0.07692 l 0,15.846156 c 0,0.0269 -0.005,0.05023 0,0.07692 l 15.997619,0 z" id="path3505" style="opacity:0;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+      <path d="m -100,55 c -2.18271,0.06722 -3.93278,1.8173 -4,4 l 0,3 7,0 0,-7 -3,0 z" id="path3507" sodipodi:nodetypes="cccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+    </g>
+    <g id="mask-bottomleft" transform="matrix(0,-1,1,0,-134,-1)">
+      <path d="m -97,62 0,-16 -16,0 0,16 16,0 z" id="path3511" sodipodi:nodetypes="ccccc" style="opacity:0;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+      <path d="m -100,55 c -2,0 -4,2 -4,4 l 0,3 7,0 0,-7 -3,0 z" id="path3513" sodipodi:nodetypes="cccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+    </g>
+    <g id="mask-bottomright" transform="matrix(-0.99992549,0,0,-1,-136.99396,158)">
+      <path d="m -97.001191,61.999999 0,-16 -15.997619,0 c -0.005,0.02669 0,0.05002 0,0.07692 l 0,15.846156 c 0,0.0269 -0.005,0.05023 0,0.07692 l 15.997619,0 z" id="path3517" style="opacity:0;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+      <path d="m -100,55 c -2.18271,0.06722 -3.93278,1.8173 -4,4 l 0,3 7,0 0,-7 -3,0 z" id="path3519" sodipodi:nodetypes="cccccc" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" class="ColorScheme-ViewFocus"/>
+    </g>
+    <g id="g4240-6" inkscape:label="layer1" style="display:none" transform="translate(-1651.065,348.64174)"/>
+    <g id="g4242-1" inkscape:label="glow" style="display:inline" transform="translate(-1651.065,348.64174)"/>
+    <g id="g4244-5" inkscape:label="layer1" style="display:none" transform="translate(777.99602,-1131.2377)"/>
+    <g id="g4246-9" inkscape:label="glow" style="display:inline" transform="translate(777.99602,-1131.2377)"/>
+    <g id="g4248-4" inkscape:label="Layer 1" transform="translate(823.97382,-162.37494)"/>
+    <g id="g4250-9" inkscape:label="Layer 1" transform="translate(2610.2643,221.0831)"/>
+    <g id="g4252-0" inkscape:label="Layer 1" transform="translate(3715.0895,-657.18627)"/>
+    <g id="g4254-9" inkscape:label="Layer 1" transform="translate(1317.2198,-672.53347)"/>
+    <g id="g4256-1" inkscape:label="Layer 1" transform="translate(-33.59767,656.07818)"/>
+    <g id="g4258-7" inkscape:label="Layer 1" transform="translate(1071.2275,-222.19114)"/>
+    <g id="g4260-7" inkscape:label="Layer 1" transform="translate(-1326.6422,-237.53834)"/>
+    <g id="g4262-1" inkscape:label="Layer 1" transform="translate(2112.9023,648.07818)"/>
+    <g id="g4264-1" inkscape:label="Layer 1" transform="translate(3217.7275,-230.19114)"/>
+    <g id="g4266-5" inkscape:label="Layer 1" transform="translate(819.85782,-245.53834)"/>
+    <g id="g4268-9" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-351.06497,1109.0352)"/>
+    <text id="text4270-7" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans" x="-127.06499" xml:space="preserve" y="606.00397" class="ColorScheme-ViewFocus">
+      <tspan id="tspan4272-7" sodipodi:role="line" x="-127.06499" y="606.00397"/>
+    </text>
+    <g id="g4239-6" transform="translate(949.49033,5.71119)">
+      <g id="g4241-7"/>
+    </g>
+    <g id="g5306-3" inkscape:label="layer1" style="display:none" transform="translate(-1206.0097,-221.651)"/>
+    <g id="g5308-6" inkscape:label="glow" style="display:inline" transform="translate(-1206.0097,-221.651)"/>
+    <g id="g5310-5" inkscape:label="layer1" style="display:none" transform="translate(1223.0513,-1701.5304)"/>
+    <g id="g5312-6" inkscape:label="glow" style="display:inline" transform="translate(1223.0513,-1701.5304)"/>
+    <g id="g5314-3" inkscape:label="Layer 1" transform="translate(1269.0291,-732.66767)"/>
+    <g id="g5316-9" inkscape:label="Layer 1" transform="translate(3055.3196,-349.20964)"/>
+    <g id="g5318-4" inkscape:label="Layer 1" transform="translate(4160.1448,-1227.4791)"/>
+    <g id="g5320-8" inkscape:label="Layer 1" transform="translate(1762.2751,-1242.8263)"/>
+    <g id="g5322-1" inkscape:label="Layer 1" transform="translate(411.45763,85.78544)"/>
+    <g id="g5324-2" inkscape:label="Layer 1" transform="translate(1516.2828,-792.48387)"/>
+    <g id="g5326-9" inkscape:label="Layer 1" transform="translate(-881.58689,-807.83107)"/>
+    <g id="g5328-3" inkscape:label="Layer 1" transform="translate(2557.9576,77.78544)"/>
+    <g id="g5330-9" inkscape:label="Layer 1" transform="translate(3662.7828,-800.48387)"/>
+    <g id="g5332-0" inkscape:label="Layer 1" transform="translate(1264.9131,-815.83117)"/>
+    <g id="g5334-8" style="opacity:0.45945943" transform="matrix(1,0,0,-1,93.99033,538.74244)"/>
+    <text id="text5336-8" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="317.99033" xml:space="preserve" y="35.711174" class="ColorScheme-ViewFocus">
+      <tspan id="tspan5338-5" sodipodi:role="line" x="317.99033" y="35.711174"/>
+    </text>
+    <g id="layer4-0" inkscape:label="box" style="display:inline" transform="translate(-435.9041,110.08214)"/>
+    <g id="layer5-9" inkscape:label="zip_app" style="display:inline" transform="translate(-435.9041,110.08214)"/>
+    <rect height="0" id="rect1327-6" style="opacity:0.57786889;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" width="1" x="-522.37347" y="48.549461" class="ColorScheme-ViewHover"/>
+    <rect height="0" id="rect2482-3" style="opacity:0.57786889;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" width="1" x="-557.50031" y="21.021843" class="ColorScheme-ViewHover"/>
+    <g id="g4640-8" style="opacity:0.40163933" transform="matrix(-0.782995,0,0,0.650879,-3039.2956,634.32349)"/>
+    <g id="g4646-5" style="opacity:0.40163933" transform="matrix(-0.782995,0,0,0.650879,-3039.2956,634.32349)"/>
+    <g id="g4730-6" style="opacity:0.40163933" transform="matrix(1,0,0,0.650879,161.6667,641.65129)"/>
+    <g id="g4748-1" style="opacity:0.40163933" transform="matrix(1,0,0,0.650879,161.6667,641.65129)"/>
+    <g id="g5475-1" inkscape:label="layer1" style="display:none" transform="translate(-6581.9269,-382.90169)"/>
+    <g id="g5477-5" inkscape:label="glow" style="display:inline" transform="translate(-6581.9269,-382.90169)"/>
+    <g id="g5479-9" inkscape:label="layer1" style="display:none" transform="translate(-4152.8659,-1862.7811)"/>
+    <g id="g5481-8" inkscape:label="glow" style="display:inline" transform="translate(-4152.8659,-1862.7811)"/>
+    <g id="g5483-4" inkscape:label="Layer 1" transform="translate(-4106.8881,-893.91837)"/>
+    <g id="g5485-8" inkscape:label="Layer 1" transform="translate(-2320.5976,-510.46037)"/>
+    <g id="g5487-1" inkscape:label="Layer 1" transform="translate(-1215.7724,-1388.7297)"/>
+    <g id="g5489-0" inkscape:label="Layer 1" transform="translate(-3613.6421,-1404.0769)"/>
+    <g id="g5491-3" inkscape:label="Layer 1" transform="translate(-4964.4596,-75.46525)"/>
+    <g id="g5493-0" inkscape:label="Layer 1" transform="translate(-3859.6344,-953.73457)"/>
+    <g id="g5495-4" inkscape:label="Layer 1" transform="translate(-6257.5041,-969.08177)"/>
+    <g id="g5497-4" inkscape:label="Layer 1" transform="translate(-2817.9596,-83.46525)"/>
+    <g id="g5499-4" inkscape:label="Layer 1" transform="translate(-1713.1344,-961.73457)"/>
+    <g id="g5501-4" inkscape:label="Layer 1" transform="translate(-4111.0041,-977.08187)"/>
+    <g id="g5503-7" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-5281.9269,377.49175)"/>
+    <text id="text5505-6" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-5057.9268" xml:space="preserve" y="-125.53953" class="ColorScheme-ViewFocus">
+      <tspan id="tspan5507-3" sodipodi:role="line" x="-5057.9268" y="-125.53953"/>
+    </text>
+    <g id="g6557-1" inkscape:label="layer1" style="display:none" transform="translate(-1844.7597,268.4115)"/>
+    <g id="g6559-7" inkscape:label="glow" style="display:inline" transform="translate(-1844.7597,268.4115)"/>
+    <g id="g6561-5" inkscape:label="layer1" style="display:none" transform="translate(584.30133,-1211.4679)"/>
+    <g id="g6563-9" inkscape:label="glow" style="display:inline" transform="translate(584.30133,-1211.4679)"/>
+    <g id="g6565-6" inkscape:label="Layer 1" transform="translate(630.27913,-242.60522)"/>
+    <g id="g6567-2" inkscape:label="Layer 1" transform="translate(2416.5696,140.85286)"/>
+    <g id="g6569-1" inkscape:label="Layer 1" transform="translate(3521.3948,-737.41647)"/>
+    <g id="g6571-7" inkscape:label="Layer 1" transform="translate(1123.5251,-752.76367)"/>
+    <g id="g6573-8" inkscape:label="Layer 1" transform="translate(-227.29237,575.84794)"/>
+    <g id="g6575-5" inkscape:label="Layer 1" transform="translate(877.53283,-302.42142)"/>
+    <g id="g6577-7" inkscape:label="Layer 1" transform="translate(-1520.3369,-317.76862)"/>
+    <g id="g6579-4" inkscape:label="Layer 1" transform="translate(1919.2076,567.84794)"/>
+    <g id="g6581-1" inkscape:label="Layer 1" transform="translate(3024.0328,-310.42142)"/>
+    <g id="g6583-8" inkscape:label="Layer 1" transform="translate(626.16313,-325.76865)"/>
+    <g id="g6585-5" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-544.75967,1028.805)"/>
+    <text id="text6588-9" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-320.7597" xml:space="preserve" y="525.77368" class="ColorScheme-ViewFocus">
+      <tspan id="tspan6590-7" sodipodi:role="line" x="-320.7597" y="525.77368"/>
+    </text>
+    <g id="g8959-5" inkscape:label="layer1" style="display:none" transform="translate(1000.9903,-1025.3998)"/>
+    <g id="g8961-3" inkscape:label="glow" style="display:inline" transform="translate(1000.9903,-1025.3998)"/>
+    <g id="g8963-8" inkscape:label="layer1" style="display:none" transform="translate(3430.0513,-2505.2792)"/>
+    <g id="g8965-8" inkscape:label="glow" style="display:inline" transform="translate(3430.0513,-2505.2792)"/>
+    <g id="g8967-3" inkscape:label="Layer 1" transform="translate(3476.0291,-1536.4165)"/>
+    <g id="g8969-1" inkscape:label="Layer 1" transform="translate(5262.3196,-1152.9584)"/>
+    <g id="g8971-8" inkscape:label="Layer 1" transform="translate(6367.1448,-2031.2278)"/>
+    <g id="g8973-9" inkscape:label="Layer 1" transform="translate(3969.2751,-2046.575)"/>
+    <g id="g8975-6" inkscape:label="Layer 1" transform="translate(2618.4576,-717.96327)"/>
+    <g id="g8977-4" inkscape:label="Layer 1" transform="translate(3723.2828,-1596.2327)"/>
+    <g id="g8979-3" inkscape:label="Layer 1" transform="translate(1325.4131,-1611.5799)"/>
+    <g id="g8981-3" inkscape:label="Layer 1" transform="translate(4764.9576,-725.96327)"/>
+    <g id="g8983-3" inkscape:label="Layer 1" transform="translate(5869.7828,-1604.2327)"/>
+    <g id="g8985-8" inkscape:label="Layer 1" transform="translate(3471.9131,-1619.5799)"/>
+    <g id="g9072-6" style="opacity:0.45945943" transform="matrix(1,0,0,-1,2300.9903,-265.00631)"/>
+    <text id="text9074-0" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="2524.9902" xml:space="preserve" y="-768.0376" class="ColorScheme-ViewFocus">
+      <tspan id="tspan9076-4" sodipodi:role="line" x="2524.9902" y="-768.0376"/>
+    </text>
+    <g id="g3978-8" transform="translate(-186.99997,179.75268)">
+      <g id="g3980-8"/>
+    </g>
+    <g id="layer1-7-8" inkscape:label="layer1" style="display:none" transform="translate(-2342.5,-47.60951)"/>
+    <g id="g3983-9" inkscape:label="glow" style="display:inline" transform="translate(-2342.5,-47.60951)"/>
+    <g id="g3985-7" inkscape:label="layer1" style="display:none" transform="translate(86.56103,-1527.489)"/>
+    <g id="g3987-7" inkscape:label="glow" style="display:inline" transform="translate(86.56103,-1527.489)"/>
+    <g id="g3989-6" inkscape:label="Layer 1" transform="translate(132.53883,-558.62627)"/>
+    <g id="g3991-4" inkscape:label="Layer 1" transform="translate(1918.8293,-175.16815)"/>
+    <g id="g3993-3" inkscape:label="Layer 1" transform="translate(3023.6545,-1053.4376)"/>
+    <g id="g3995-0" inkscape:label="Layer 1" transform="translate(625.78483,-1068.7848)"/>
+    <g id="g3997-3" inkscape:label="Layer 1" transform="translate(-725.03267,259.82693)"/>
+    <g id="g3999-0" inkscape:label="Layer 1" transform="translate(379.79253,-618.44247)"/>
+    <g id="g4001-9" inkscape:label="Layer 1" transform="translate(-2018.0772,-633.78967)"/>
+    <g id="g4003-2" inkscape:label="Layer 1" transform="translate(1421.4673,251.82693)"/>
+    <g id="g4005-5" inkscape:label="Layer 1" transform="translate(2526.2925,-626.44247)"/>
+    <g id="g4007-4" inkscape:label="Layer 1" transform="translate(128.42283,-641.78967)"/>
+    <g id="g4009-0" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-1042.5,712.78395)"/>
+    <text id="text4011-5" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-818.5" xml:space="preserve" y="209.75272" class="ColorScheme-ViewFocus">
+      <tspan id="tspan4013-9" sodipodi:role="line" x="-818.5" y="209.75272"/>
+    </text>
+    <g id="g4015-4" inkscape:label="box" style="display:inline" transform="translate(-1572.3944,284.12363)"/>
+    <g id="g4017-6" inkscape:label="zip_app" style="display:inline" transform="translate(-1572.3944,284.12363)"/>
+    <rect height="0" id="rect4019-9" style="opacity:0.57786889;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" width="1" x="-1658.8638" y="222.59097" class="ColorScheme-ViewHover"/>
+    <rect height="0" id="rect4021-2" style="opacity:0.57786889;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" width="1" x="-1693.9906" y="195.06339" class="ColorScheme-ViewHover"/>
+    <g id="g4023-2" style="opacity:0.40163933" transform="matrix(-0.782995,0,0,0.650879,-4175.7859,808.36495)"/>
+    <g id="g4025-4" style="opacity:0.40163933" transform="matrix(-0.782995,0,0,0.650879,-4175.7859,808.36495)"/>
+    <g id="g4027-7" style="opacity:0.40163933" transform="matrix(1,0,0,0.650879,-974.82359,815.69275)"/>
+    <g id="g4029-7" style="opacity:0.40163933" transform="matrix(1,0,0,0.650879,-974.82359,815.69275)"/>
+    <g id="g4031-5" inkscape:label="layer1" style="display:none" transform="translate(-7718.4172,-208.8602)"/>
+    <g id="g4033-4" inkscape:label="glow" style="display:inline" transform="translate(-7718.4172,-208.8602)"/>
+    <g id="g4035-8" inkscape:label="layer1" style="display:none" transform="translate(-5289.3562,-1688.7397)"/>
+    <g id="g4037-1" inkscape:label="glow" style="display:inline" transform="translate(-5289.3562,-1688.7397)"/>
+    <g id="g4039-2" inkscape:label="Layer 1" transform="translate(-5243.3784,-719.87697)"/>
+    <g id="g4041-8" inkscape:label="Layer 1" transform="translate(-3457.0879,-336.41884)"/>
+    <g id="g4043-9" inkscape:label="Layer 1" transform="translate(-2352.2627,-1214.6882)"/>
+    <g id="g4045-3" inkscape:label="Layer 1" transform="translate(-4750.1324,-1230.0355)"/>
+    <g id="g4047-6" inkscape:label="Layer 1" transform="translate(-6100.9499,98.57624)"/>
+    <g id="g4049-8" inkscape:label="Layer 1" transform="translate(-4996.1247,-779.69317)"/>
+    <g id="g4051-0" inkscape:label="Layer 1" transform="translate(-7393.9944,-795.04037)"/>
+    <g id="g4053-2" inkscape:label="Layer 1" transform="translate(-3954.4499,90.57624)"/>
+    <g id="g4055-1" inkscape:label="Layer 1" transform="translate(-2849.6247,-787.69317)"/>
+    <g id="g4057-0" inkscape:label="Layer 1" transform="translate(-5247.4944,-803.04037)"/>
+    <g id="g4059-5" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-6418.4172,551.53324)"/>
+    <text id="text4061-1" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-6194.417" xml:space="preserve" y="48.502007" class="ColorScheme-ViewFocus">
+      <tspan id="tspan4063-1" sodipodi:role="line" x="-6194.417" y="48.502007"/>
+    </text>
+    <g id="g4065-0" inkscape:label="layer1" style="display:none" transform="translate(-2981.25,442.45299)"/>
+    <g id="g4068-8" inkscape:label="glow" style="display:inline" transform="translate(-2981.25,442.45299)"/>
+    <g id="g4070-5" inkscape:label="layer1" style="display:none" transform="translate(-552.18897,-1037.4265)"/>
+    <g id="g4072-0" inkscape:label="glow" style="display:inline" transform="translate(-552.18897,-1037.4265)"/>
+    <g id="g4074-6" inkscape:label="Layer 1" transform="translate(-506.21117,-68.56373)"/>
+    <g id="g4076-4" inkscape:label="Layer 1" transform="translate(1280.0793,314.89435)"/>
+    <g id="g4078-6" inkscape:label="Layer 1" transform="translate(2384.9045,-563.37507)"/>
+    <g id="g4080-2" inkscape:label="Layer 1" transform="translate(-12.96517,-578.72227)"/>
+    <g id="g4082-5" inkscape:label="Layer 1" transform="translate(-1363.7827,749.88945)"/>
+    <g id="g4084-8" inkscape:label="Layer 1" transform="translate(-258.95747,-128.37993)"/>
+    <g id="g4086-6" inkscape:label="Layer 1" transform="translate(-2656.8272,-143.72713)"/>
+    <g id="g4088-2" inkscape:label="Layer 1" transform="translate(782.71733,741.88945)"/>
+    <g id="g4090-8" inkscape:label="Layer 1" transform="translate(1887.5425,-136.37993)"/>
+    <g id="g4092-4" inkscape:label="Layer 1" transform="translate(-510.32717,-151.72716)"/>
+    <g id="g4094-7" style="opacity:0.45945943" transform="matrix(1,0,0,-1,-1681.25,1202.8465)"/>
+    <text id="text4096-2" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="-1457.25" xml:space="preserve" y="699.81519" class="ColorScheme-ViewFocus">
+      <tspan id="tspan4098-4" sodipodi:role="line" x="-1457.25" y="699.81519"/>
+    </text>
+    <g id="g4100-0" inkscape:label="layer1" style="display:none" transform="translate(-135.49997,-851.35827)"/>
+    <g id="g4102-6" inkscape:label="glow" style="display:inline" transform="translate(-135.49997,-851.35827)"/>
+    <g id="g4104-2" inkscape:label="layer1" style="display:none" transform="translate(2293.561,-2331.2378)"/>
+    <g id="g4107-9" inkscape:label="glow" style="display:inline" transform="translate(2293.561,-2331.2378)"/>
+    <g id="g4109-9" inkscape:label="Layer 1" transform="translate(2339.5388,-1362.3751)"/>
+    <g id="g4111-0" inkscape:label="Layer 1" transform="translate(4125.8293,-978.91687)"/>
+    <g id="g4113-8" inkscape:label="Layer 1" transform="translate(5230.6545,-1857.1864)"/>
+    <g id="g4115-1" inkscape:label="Layer 1" transform="translate(2832.7848,-1872.5336)"/>
+    <g id="g4117-3" inkscape:label="Layer 1" transform="translate(1481.9673,-543.92177)"/>
+    <g id="g4119-1" inkscape:label="Layer 1" transform="translate(2586.7925,-1422.1913)"/>
+    <g id="g4121-1" inkscape:label="Layer 1" transform="translate(188.92283,-1437.5385)"/>
+    <g id="g4123-0" inkscape:label="Layer 1" transform="translate(3628.4673,-551.92177)"/>
+    <g id="g4125-3" inkscape:label="Layer 1" transform="translate(4733.2925,-1430.1913)"/>
+    <g id="g4127-4" inkscape:label="Layer 1" transform="translate(2335.4228,-1445.5385)"/>
+    <g id="g4129-0" style="opacity:0.45945943" transform="matrix(1,0,0,-1,1164.5,-90.96482)"/>
+    <text id="text4131-3" sodipodi:linespacing="125%" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:currentColor;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Bitstream Vera Sans Bold" x="1388.5" xml:space="preserve" y="-593.99609" class="ColorScheme-ViewFocus">
+      <tspan id="tspan4133-9" sodipodi:role="line" x="1388.5" y="-593.99609"/>
+    </text>
+  </g>
+</svg>

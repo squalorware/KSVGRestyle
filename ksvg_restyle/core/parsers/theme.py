@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 import re
 import tomllib
-from typing import Any, TextIO
+from typing import TextIO
+
+from ksvg_restyle.core.wrappers import ColorScheme
 
 
 def _clamp(value: int) -> int:
@@ -31,7 +33,7 @@ def _str_literal(value: str) -> str:
     return f'"{val}"\n'
 
 
-def parse_color_theme(ct_file: TextIO) -> dict[str, Any]:
+def parse_color_theme(ct_file: TextIO) -> ColorScheme:
     """
     Read the KDE Plasma Color Theme stylesheet.
 
@@ -71,4 +73,4 @@ def parse_color_theme(ct_file: TextIO) -> dict[str, Any]:
         if not color_theme:
             raise ValueError("No color theme specification found")
 
-        return color_theme
+        return ColorScheme(color_theme)
