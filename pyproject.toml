@@ -91,14 +91,14 @@ strict = true
 
 [tool.pytest.ini_options]
 testpaths = ["test"]
-addopts = "--junitxml=junit/test-results.xml --cov=ksvg_restyle --cov-report=xml --cache-clear"
+addopts = "--junitxml junit/test-results.xml --cov-report xml:coverage.xml --cov ksvg_restyle"
 log_cli = true
 log_cli_level = "DEBUG"
 log_cli_format = "[%(levelname)s]: %(message)s"
 minversion = "6.0"
 filterwarnings = "ignore"
 norecursedirs = ["docs", "build"]
-cache_dir = ".pytest_cache"
+cache_dir = "/tmp/pytest_cache"
 
 [tool.pyupgrade]
 py312-plus = true
