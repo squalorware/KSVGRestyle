@@ -2,9 +2,10 @@ name: Update Coverage on Readme
 on:
   push:
 
-# https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs
-# `contents` is for permission to the contents of the repository.
-# `pull-requests` is for permission to pull request
+concurrency:
+  group: covrme-master
+  cancel-in-progress: true/
+
 permissions:
   contents: write
   checks: write
@@ -20,7 +21,7 @@ jobs:
           fetch-depth: 0
 
       - name: Pytest coverage comment
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         id: coverageComment
         uses: MishaKav/pytest-coverage-comment@main
         with:
@@ -29,13 +30,13 @@ jobs:
           junitxml-path: ./junit/test-results.xml
 
       - name: Update Readme with Coverage Html
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         run: |
           sed -i '/<!-- Pytest Coverage Comment:Begin -->/,/<!-- Pytest Coverage Comment:End -->/c\<!-- Pytest Coverage Comment:Begin -->\n\${{ steps.coverageComment.outputs.coverageHtml }}\n<!-- Pytest Coverage Comment:End -->' ./README.md
 
       - name: Commit & Push changes to Readme
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         uses: actions-js/push@master
         with:
           message: Update coverage on Readme
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
