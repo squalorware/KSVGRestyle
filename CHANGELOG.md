@@ -1,3 +1,13 @@
+## v0.1.6 (2025-03-09)
+
+### Fix
+
+- readme_coverage workflow
+
+### Refactor
+
+- pytest-coverage-comment configuration
+
 ## v0.1.5 (2025-03-09)
 
 ### Fix
