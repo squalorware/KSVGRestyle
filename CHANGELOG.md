@@ -1,3 +1,9 @@
+## v0.1.3 (2025-03-09)
+
+### Fix
+
+- readme-coverage-report pipeline
+
 ## v0.1.2 (2025-03-09)
 
 ### Fix
