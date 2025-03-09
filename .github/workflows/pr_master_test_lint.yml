@@ -1,0 +1,50 @@
+name: On pull request to master
+run-name: \#${{ github.run_number }} - Running checks for ${{ github.sha }}
+
+on:
+  pull_request:
+    branches:
+      - master
+    types:
+      - opened
+      - reopened
+
+concurrency:
+  group: commit-${{ github.sha }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  checks: write
+  pull-requests: write
+
+jobs:
+  run-checks:
+    strategy:
+      fail-fast: false
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: abatilo/actions-poetry@v4
+        with:
+          poetry-version: "2.0.1"
+      - name: Define cache store for the virtualenv from poetry lock
+        uses: actions/cache@v3
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+      - name: Install the development and testing dependencies
+        run: poetry install --only dev, test
+      - name: Lint the code
+        run: poetry run flake8
+      - name: Run tests
+        run: poetry run pytest
+      - name: Check test coverage
+        id: pytest-cov
+        uses: MishaKav/pytest-coverage-comment@main
+        with:
+          pytest-xml-coverage-path: ./coverage.xml
+          junitxml-path: ./junit/test-results.xml

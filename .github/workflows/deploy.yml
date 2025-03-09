@@ -1,0 +1,66 @@
+name: On tag pushed
+run-name: \#${{ github.run_number }} - Releasing ${{ github.ref }}
+
+on:
+  push:
+    tags:
+      - "v*"
+
+concurrency:
+  group: tag-release-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  detect-changelog:
+    runs-on: ubuntu-22.04
+    outputs:
+      notes: {{ steps.generate_notes.outputs.notes }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+      - id: generate_notes
+        uses: anmarkoulis/commitizen-changelog-reader@v1.2.0
+        with:
+          tag_name: ${{ github.ref }}
+          changelog: CHANGELOG.md
+
+  deploy:
+    runs-on: ubuntu-22.04
+    needs: detect-changelog
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: abatilo/actions-poetry@v4
+        with:
+          poetry-version: "2.0.1"
+      - uses: actions/cache@v3
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+      - name: Configure Poetry and install the runtime dependencies
+        run: |
+          poetry config pypi-token.pypi ${{ secrets.PYPI_DEPLOY_TOKEN }}
+          poetry install --only main
+      - name: Publish the package
+        run: poetry publish --build
+
+  release:
+    runs-on: ubuntu-22.04
+    needs: [deploy, detect-changelog]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create the release notes
+        run: |
+          echo "${{ join(fromJson(needs.detect-changelog.outputs.notes).notes, '') }}" > release_notes.txt
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION: ${{ github.ref_name }}
+        run: |
+          gh release create ${{ github.ref }} \
+          --title "Version $VERSION released" \
+          --notes-file "release_notes.txt"
