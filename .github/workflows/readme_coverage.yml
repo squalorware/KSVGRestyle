@@ -54,3 +54,5 @@ jobs:
         with:
           message: Update coverage on Readme
           github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          branch: master
+          rebase: true
