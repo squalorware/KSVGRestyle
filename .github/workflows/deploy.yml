@@ -14,7 +14,7 @@ jobs:
   detect-changelog:
     runs-on: ubuntu-22.04
     outputs:
-      notes: {{ steps.generate_notes.outputs.notes }}
+      notes: ${{ steps.generate_notes.outputs.notes }}
     steps:
       - uses: actions/checkout@v4
         with:
