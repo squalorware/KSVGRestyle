@@ -7,6 +7,7 @@ name = "ksvg_restyle"
 dynamic = [ "version" ]
 requires-python = ">=3.12,<4.0"
 description = "A CLI tool to apply Plasma Color Schemes to SVG widgets"
+license = { text = "LGPL-2.1-or-later" }
 readme = "README.md"
 authors = [
     { name = "oniko94", email = "onikolaiev94@outlook.com" },
@@ -18,9 +19,6 @@ keywords = [ "cli", "kde", "svg", "color", "widget", "theme", "plasma" ]
 
 [project.urls]
 repository = "https://github.com/squalorware/KSVG_Restyle"
-
-[project.license]
-text = "LGPL-2.1-or-later"
 
 [project.scripts]
 ksvg_restyle = "ksvg_restyle.__main__:__main__"
@@ -74,8 +72,12 @@ major_version_zero = true
 
 [tool.flake8]
 max-line-length = 80
+count = true
+show-source = true
+statistics = true
 inline-quotes = "double"
 ignore = ["B009", "B010", "W503"]
+select = ["E9", "F63", "F7", "F82"]
 per-file-ignores = ["tests/*: S101"]
 extend_exclude = [".venv", ".github"]
 
@@ -99,4 +101,4 @@ norecursedirs = ["docs", "build"]
 cache_dir = ".pytest_cache"
 
 [tool.pyupgrade]
-py311-plus = true
+py312-plus = true

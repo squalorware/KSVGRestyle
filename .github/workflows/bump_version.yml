@@ -18,9 +18,11 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           fetch-depth: 0
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - uses: commitizen-tools/commitizen-action@master
         with:
           github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
