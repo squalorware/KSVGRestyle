@@ -1,3 +1,9 @@
+## v0.1.8 (2025-03-09)
+
+### Fix
+
+- update readme_coverage workflow
+
 ## v0.1.7 (2025-03-09)
 
 ### Refactor
