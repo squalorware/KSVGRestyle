@@ -1,3 +1,9 @@
+## v0.1.5 (2025-03-09)
+
+### Fix
+
+- certain typos, documentation errors
+
 ## v0.1.4 (2025-03-09)
 
 ### Fix
