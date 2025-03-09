@@ -58,7 +58,7 @@ jobs:
           echo "${{ join(fromJson(needs.detect-changelog.outputs.notes).notes, '') }}" > release_notes.txt
       - name: Create GitHub release
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           VERSION: ${{ github.ref_name }}
         run: |
           gh release create ${{ github.ref }} \
