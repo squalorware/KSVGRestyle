@@ -27,7 +27,6 @@ Users that do not utilize `pipx`, can install it like any other regular Python p
 ```bash
 pip install --user ksvg_restyle
 ```
-Or download the latest builds (either `wheel` or `sdist`) from the Releases page of the  repository.
 
 And of course, it is possible to build the installable Python package directly from the source code - in this case a user must ensure they have [Poetry](https://python-poetry.org/) installed (version 2 and higher) and run Python 3.12 or higher. To build the package, one should
 
@@ -67,6 +66,10 @@ Options:
   -r, --replace            Replace existing SVG. Effective only when no output
                            path provided.
   --help                   Show this message and exit.
+```
+Since it is a Python package, it can also be called as a module 
+```bash
+$ python -m ksvg_restyle [OPTIONS] SVG
 ```
 
 ## TODOs
