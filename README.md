@@ -9,7 +9,7 @@ KSVGRestyle is a command-line interface (CLI) tool designed to apply a color sch
 
 
 <!-- Pytest Coverage Comment:Begin -->
-<!-- Pytest Coverage Comment:End -->
+\n<!-- Pytest Coverage Comment:End -->
 
 ## Installation
 
