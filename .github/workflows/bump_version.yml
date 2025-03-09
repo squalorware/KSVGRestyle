@@ -1,4 +1,4 @@
-name: On merge to master
+name: On push to master
 
 on:
   push:
