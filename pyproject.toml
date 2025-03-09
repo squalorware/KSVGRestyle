@@ -63,12 +63,13 @@ target-version = ["py312"]
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-tag_format = "$version"
+tag_format = "v$version"
 version_scheme = "semver"
 version_provider = "poetry"
+version_files = [
+    "pyproject.toml:version"
+]
 update_changelog_on_bump = true
-bump_message = "bump: version $current_version → $new_version"
-annotated_tag = true
 major_version_zero = true
 
 [tool.flake8]
