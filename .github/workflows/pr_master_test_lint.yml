@@ -1,5 +1,5 @@
 name: On pull request to master
-run-name: \#${{ github.run_number }} - Running checks for ${{ github.sha }}
+run-name: "#${{ github.run_number }} - Running checks for ${{ github.sha }}"
 
 on:
   pull_request:
@@ -48,9 +48,10 @@ jobs:
       - name: Run tests
         run: poetry run pytest
 
-      - name: Check test coverage
+      - name: Check pull request test coverage
         id: pytest-cov
         uses: MishaKav/pytest-coverage-comment@main
         with:
           pytest-xml-coverage-path: coverage.xml
           junitxml-path: junit/test-results.xml
+          report-only-changed-files: true
