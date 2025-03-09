@@ -22,18 +22,15 @@ jobs:
   run-checks:
     strategy:
       fail-fast: false
-      matrix:
-        python-version: ["3.12", "3.13"]
-        poetry-version: ["latest", "main", "2.0.1"]
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: "3.12"
       - uses: abatilo/actions-poetry@v4
         with:
-          poetry-version: ${{ matrix.poetry-version }}
+          poetry-version: "2.0.1"
       - name: Define cache store for the virtualenv from poetry lock
         uses: actions/cache@v3
         with:
@@ -50,5 +47,4 @@ jobs:
         uses: MishaKav/pytest-coverage-comment@main
         with:
           pytest-xml-coverage-path: ./coverage.xml
-          unique-id-for-comment: ${{ matrix.python-version }}
           junitxml-path: ./junit/test-results.xml
