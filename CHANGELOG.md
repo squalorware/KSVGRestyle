@@ -1,3 +1,9 @@
+## v0.1.4 (2025-03-09)
+
+### Fix
+
+- syntax error due to a typo
+
 ## v0.1.3 (2025-03-09)
 
 ### Fix

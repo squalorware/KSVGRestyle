@@ -24,7 +24,7 @@ repository = "https://github.com/squalorware/KSVG_Restyle"
 ksvg_restyle = "ksvg_restyle.__main__:__main__"
 
 [tool.poetry]
-version = "0.1.3"
+version = "0.1.4"
 requires-poetry = ">=2.0"
 
 [tool.poetry.dependencies]
